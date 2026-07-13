@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G·Tech — Industrial Automation &amp; Instrumentation</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" id="bootstrapCss">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Custom styles (loaded after Bootstrap so it can override) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============ TOPBAR ============ -->
+  <div class="topbar">
+    <div class="container topbar__row">
+      <div class="topbar__contact">
+        <a href="tel:+966541719233"><i class="fa-solid fa-phone"></i>+966 54 171 9233</a>
+        <a href="mailto:info@gtech-a.com"><i class="fa-solid fa-envelope"></i>info@gtech-a.com</a>
+      </div>
+      <div class="topbar__meta">
+        <span><i class="fa-solid fa-location-dot"></i><span data-i18n="topbar_location">Jeddah, Saudi Arabia</span></span>
+        <span class="dot">•</span>
+        <span data-i18n="topbar_hours">Sun – Thu, 8:00 – 17:00</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ HEADER / NAVBAR ============ -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a href="#top" class="navbar-brand logo">
+          <img src="img/logo.png" id="logoImg" alt="G·Tech Automation Logo" style="height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNav"
+          aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="siteNav">
+          <ul class="navbar-nav mx-auto nav">
+            <li class="nav-item"><a class="nav-link active" href="#top" data-i18n="nav_home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav_about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services" data-i18n="nav_services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sectors" data-i18n="nav_sectors">Sectors</a></li>
+            <li class="nav-item"><a class="nav-link" href="#clients" data-i18n="nav_projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav_contact">Contact</a></li>
+          </ul>
+          <button id="langToggle" type="button" class="lang-toggle" aria-label="Switch language">ع</button>
+          <a href="#contact" class="btn btn--primary btn--nav" data-i18n="nav_cta">Request a Quote</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <img class="hero__img" src="img/hero-img.png" alt="Aerial view of an industrial manufacturing facility">
+      <div class="hero__scrim"></div>
+      <div class="container hero__content">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="eyebrow" data-i18n="hero_eyebrow">Industrial Automation &amp; Instrumentation</p>
+            <h1 data-i18n="hero_title">Precision engineering,<br>built to run for decades.</h1>
+            <p class="hero__lede" data-i18n="hero_lede">
+              G-Tech is an independent company with well-established experience and know-how in industrial automation
+              and instrumentation
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about-benefits" id="about">
+      <div class="container">
+        <div class="row align-items-center g-5">
+
+          <div class="col-lg-5">
+
+            <div class="about-benefits__media">
+              <img src="img/about-img.png" alt="G·Tech engineer working on an automation control system">
+            </div>
+
+          </div>
+          <div class="col-lg-7">
+            <p class="eyebrow eyebrow--dark" data-i18n="about_eyebrow">About GTECH</p>
+            <h2 class="about-benefits__title" data-i18n="about_title">
+              <span>GTECH</span> is an independent instrumentation, process control, and industrial automation company.
+            </h2>
+            <p class="about-benefits__lede" data-i18n="about_lede">
+              With years of expertise, we provide turnkey solutions, industrial instrumentation equipment supply and
+              services, system upgrades, and innovative technologies for clients across KSA and beyond. Our solutions
+              are designed to complement, replace, or upgrade existing control systems while delivering reliable
+              engineering support.
+            </p>
+
+            <div class="benefit-item">
+              <div class="benefit-item__icon"><i class="fa-solid fa-compass-drafting"></i></div>
+              <div>
+                <h3 data-i18n="benefit1_title">Automation</h3>
+                <p data-i18n="benefit1_desc">Providing cutting-edge automation and control solutions to enhance efficiency and optimize industrial
+                  operations.</p>
+              </div>
+            </div>
+
+            <div class="benefit-item">
+              <div class="benefit-item__icon"><i class="fa-solid fa-toolbox"></i></div>
+              <div>
+                <h3 data-i18n="benefit2_title">Engineering</h3>
+                <p data-i18n="benefit2_desc">Expertise in instrumentation and electrical engineering, delivering reliable solutions that meet
+                  global standards.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Vision & Mission ============ -->
+    <section class="vision-mission" id="vision-mission">
+      <div class="container">
+
+        <div class="row align-items-center g-5 vm-row">
+          <div class="col-lg-5 vm-media">
+            <div class="vm-shape vm-shape--a"></div>
+            <img class="vm-blob"
+              src="https://images.unsplash.com/photo-1602860109208-613d39362844?auto=format&fit=crop&w=900&q=80"
+              alt="Industrial engineering facility">
+          </div>
+          <div class="col-lg-7">
+            <h2 class="vm-title" data-i18n="vision_title">Our Vision</h2>
+            <p data-i18n="vision_text">To be a worldwide company which is seen by employees, customers, competitors, investors and suppliers as
+              a model of exemplary performance of companies working in the field of engineering, construction,
+              Commissioning and maintenance</p>
+          </div>
+        </div>
+
+        <div class="row align-items-center g-5 vm-row">
+          <div class="col-lg-7 order-lg-1">
+            <h2 class="vm-title" data-i18n="mission_title">Our Mission</h2>
+            <p data-i18n="mission_text">To provide the best solutions to assure complete & safe engineering, construction, commissioning &
+              maintenance for oil & gas and power stations projects and engineering for other industries for all
+              customers all over the world in addition to provide technical & managerial training.</p>
+          </div>
+          <div class="col-lg-5 order-lg-2 vm-media">
+            <div class="vm-shape vm-shape--b"></div>
+            <img class="vm-blob"
+              src="https://images.unsplash.com/photo-1578776349090-de61da00ff1a?auto=format&fit=crop&w=900&q=80"
+              alt="G·Tech engineering and industrial project site">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="features" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-head">
+            <p class="eyebrow eyebrow--dark" data-i18n="features_eyebrow">What We Do?</p>
+            <h2 data-i18n="features_title">Popular Features</h2>
+            <p class="section-head__sub" data-i18n="features_sub">Instrumentation, Process Control &amp; Industrial Automation Solutions</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+          <div class="col">
+            <article class="fcard h-100">
+              <h3 data-i18n="feat1_title">Industrial Automation Solutions</h3>
+              <p data-i18n="feat1_desc">Providing PLC, SCADA, MES, and ERP integration for complete automation projects.</p>
+              <div class="fcard__blob"><i class="fa-solid fa-industry"></i></div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="fcard h-100">
+              <h3 data-i18n="feat2_title">Measuring &amp; Automation Instruments</h3>
+              <p data-i18n="feat2_desc">Supply and integration of high-quality measuring instruments with industrial systems.</p>
+              <div class="fcard__blob"><i class="fa-solid fa-gauge-high"></i></div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="fcard h-100">
+              <h3 data-i18n="feat3_title">Control Panels Builder</h3>
+              <p data-i18n="feat3_desc">Design and manufacture of electrical and automation panels to global standards.</p>
+              <div class="fcard__blob"><i class="fa-solid fa-server"></i></div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="fcard h-100">
+              <h3 data-i18n="feat4_title">Operation &amp; Maintenance</h3>
+              <p data-i18n="feat4_desc">Comprehensive support for plant operations and maintenance with expert engineers.</p>
+              <div class="fcard__blob"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="fcard h-100">
+              <h3 data-i18n="feat5_title">Smart Building &amp; BMS</h3>
+              <p data-i18n="feat5_desc">Design, supply, and installation of Building Management Systems integrated with industrial automation.
+              </p>
+              <div class="fcard__blob"><i class="fa-solid fa-building"></i></div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="fcard h-100">
+              <h3 data-i18n="feat6_title">Electromechanical Construction</h3>
+              <p data-i18n="feat6_desc">Full MEP contracting solutions for industrial and commercial facilities.</p>
+              <div class="fcard__blob"><i class="fa-solid fa-bolt"></i></div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="sectors-served" id="sectors">
+      <div class="container text-center">
+        <h2 class="sectors-served__title" data-i18n="sectors_title">Sectors We Serve</h2>
+
+        <div class="sectors-served__row">
+
+          <div class="sector-item">
+            <div class="sector-item__icon sector-item__icon--a">
+              <span class="sector-item__num">01</span>
+              <i class="fa-solid fa-industry"></i>
+            </div>
+            <p data-i18n="sector1">Petrochemical<br>Plant</p>
+          </div>
+
+          <div class="sector-item">
+            <div class="sector-item__icon sector-item__icon--b">
+              <span class="sector-item__num">02</span>
+              <i class="fa-solid fa-flask"></i>
+            </div>
+            <p data-i18n="sector2">Chemical<br>Plants</p>
+          </div>
+
+          <div class="sector-item">
+            <div class="sector-item__icon sector-item__icon--a">
+              <span class="sector-item__num">03</span>
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <p data-i18n="sector3">Food<br>Industry</p>
+          </div>
+
+          <div class="sector-item">
+            <div class="sector-item__icon sector-item__icon--b">
+              <span class="sector-item__num">04</span>
+              <i class="fa-solid fa-pills"></i>
+            </div>
+            <p data-i18n="sector4">Pharmaceutical<br>Industry</p>
+          </div>
+
+          <div class="sector-item">
+            <div class="sector-item__icon sector-item__icon--a">
+              <span class="sector-item__num">05</span>
+              <i class="fa-solid fa-box"></i>
+            </div>
+            <p data-i18n="sector5">Food<br>Packaging</p>
+          </div>
+
+          <div class="sector-item">
+            <div class="sector-item__icon sector-item__icon--b">
+              <span class="sector-item__num">06</span>
+              <i class="fa-solid fa-scroll"></i>
+            </div>
+            <p data-i18n="sector6">Paper Converting<br>Products</p>
+          </div>
+
+          <div class="sector-item sector-item--more">
+            <div class="sector-item__icon sector-item__icon--more">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+            <p data-i18n="sector_more">&amp; More<br>Sectors</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose" id="why-choose">
+      <div class="container position-relative">
+
+        <svg class="why-choose__deco why-choose__deco--left" viewBox="0 0 60 60" aria-hidden="true">
+          <path d="M30 2v16M30 42v16M2 30h16M42 30h16M10 10l11 11M39 39l11 11M50 10L39 21M21 39L10 50"
+            stroke="var(--primary-tint)" stroke-width="3" stroke-linecap="round" />
+        </svg>
+        <svg class="why-choose__deco why-choose__deco--right" viewBox="0 0 70 70" aria-hidden="true">
+          <circle cx="35" cy="35" r="26" fill="none" stroke="var(--accent-blue-tint)" stroke-width="3" />
+          <path d="M35 9v10M35 51v10M9 35h10M51 35h10" stroke="var(--accent-blue-tint)" stroke-width="3"
+            stroke-linecap="round" />
+          <circle cx="35" cy="35" r="4" fill="var(--accent-blue-tint)" />
+        </svg>
+
+        <h2 class="why-choose__title text-center" data-i18n="why_title">Why Choose GTECH</h2>
+
+        <div class="row row-cols-2 row-cols-md-3 g-4 why-choose__row">
+
+          <div class="col">
+            <div class="why-item">
+              <div class="why-item__blob why-item__blob--a"><i class="fa-solid fa-award"></i></div>
+              <h3 data-i18n="why1">Years of Industry Experience</h3>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="why-item">
+              <div class="why-item__blob why-item__blob--b"><i class="fa-solid fa-key"></i></div>
+              <h3 data-i18n="why2">Turnkey Solutions</h3>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="why-item">
+              <div class="why-item__blob why-item__blob--a"><i class="fa-solid fa-certificate"></i></div>
+              <h3 data-i18n="why3">Authorized Rockwell Automation System Integrator</h3>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="why-item">
+              <div class="why-item__blob why-item__blob--b"><i class="fa-solid fa-bolt"></i></div>
+              <h3 data-i18n="why4">Fast Response</h3>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="why-item">
+              <div class="why-item__blob why-item__blob--a"><i class="fa-solid fa-sack-dollar"></i></div>
+              <h3 data-i18n="why5">Cost-Effective Solutions</h3>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="why-item">
+              <div class="why-item__blob why-item__blob--b"><i class="fa-solid fa-globe"></i></div>
+              <h3 data-i18n="why6">Global Standards</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CLIENTS ============ -->
+    <section class="clients" id="clients">
+      <div class="container">
+        <p class="eyebrow eyebrow--dark text-center" data-i18n="clients_eyebrow">CLIENTS</p>
+        <h2 class="clients__title text-center" data-i18n="clients_title">Trusted by operators across the Kingdom</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 clients__row">
+
+          <div class="col">
+            <div class="client-card client-card--a">
+              <div class="client-card__shape"></div>
+              <div class="client-card__box"><img src="img/client1.png" alt="client1" ;></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="client-card client-card--b">
+              <div class="client-card__shape"></div>
+              <div class="client-card__box"><img src="img/client2.png" alt="client2" ;></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="client-card client-card--c">
+              <div class="client-card__shape"></div>
+              <div class="client-card__box"><img src="img/client3.png" alt="client3" ;></div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="client-card client-card--a">
+              <div class="client-card__shape"></div>
+              <div class="client-card__box"><img src="img/client4.png" alt="client4" ;></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="client-card client-card--b">
+              <div class="client-card__shape"></div>
+              <div class="client-card__box"><img src="img/client5.svg.webp" alt="client5" ;></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="client-card client-card--c">
+              <div class="client-card__shape"></div>
+              <div class="client-card__box"><img src="img/client6.png" alt="client6" ;></div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="client-card client-card--a">
+              <div class="client-card__shape"></div>
+              <div class="client-card__box"><img src="img/client7.png" alt="client7" ;></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="client-card client-card--b">
+              <div class="client-card__shape"></div>
+              <div class="client-card__box"><img src="img/client8.png" alt="client8" ;></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="client-card client-card--c">
+              <div class="client-card__shape"></div>
+              <div class="client-card__box"><img src="img/client9.png" alt="client9" ;></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ============ CTA ============ -->
+    <section class="cta" id="contact">
+      <div class="container">
+        <div class="row cta__row align-items-center g-4">
+          <div class="col-lg-8">
+            <h2 data-i18n="cta_title">Have a project in mind?</h2>
+            <p data-i18n="cta_text">Tell us about your facility and we'll put together a proposal within two business days.</p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="mailto:info@gtech-a.com" class="btn btn--light"><i class="fa-solid fa-paper-plane"></i><span data-i18n="cta_btn">Contact
+              Our Team</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row footer__grid g-4">
+
+        <div class="col-lg-4 col-md-6 footer__col footer__col--brand">
+          <a href="#top">
+            <img src="img/logo.png" id="logoImg" alt="G·Tech Automation Logo"
+              style="height: 50px; padding-bottom: 10px;">
+          </a>
+          <p><i class="fa-solid fa-location-dot"></i> <span data-i18n="footer_address">Jeddah, Kingdom of Saudi Arabia</span></p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:info@gtech-a.com">info@gtech-a.com</a></p>
+          <p><i class="fa-solid fa-phone"></i> <a href="tel:+966541719233">+966 54 171 9233</a></p>
+          <div class="footer__social">
+            <a href="https://www.linkedin.com/in/g-tech-902535407" target="_blank" rel="noopener"
+              aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://x.com/GTechIndus" target="_blank" rel="noopener" aria-label="X"><i
+                class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61589156886063" target="_blank" rel="noopener"
+              aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 footer__col">
+          <h4 data-i18n="footer_quicklinks_title">Quick Links</h4>
+          <ul>
+            <li><a href="#about" data-i18n="footer_about">About Us</a></li>
+            <li><a href="#services" data-i18n="footer_services">Services</a></li>
+            <li><a href="#sectors" data-i18n="footer_sectors">Sectors</a></li>
+            <li><a href="#contact" data-i18n="footer_contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer__col">
+          <h4 data-i18n="footer_services_title">Services</h4>
+          <ul>
+            <li><a href="#services" data-i18n="footer_serv1">Industrial Automation</a></li>
+            <li><a href="#services" data-i18n="footer_serv2">Control Panels</a></li>
+            <li><a href="#services" data-i18n="footer_serv3">Maintenance</a></li>
+            <li><a href="#services" data-i18n="footer_serv4">Smart Buildings</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="year"></span> <span data-i18n="footer_copyright">G·Tech Automation. All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS bundle (includes Popper, powers the navbar collapse) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+  <script src="i18n.js"></script>
+
+</body>
+
+</html>
