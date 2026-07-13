@@ -385,14 +385,13 @@ section[id]{
 .sectors-served__title{ font-size:clamp(26px,3vw,36px); margin:8px 0 60px; color:var(--ink); }
 
 .sectors-served__row{
-  display:flex;
-  justify-content:center;
-  align-items:flex-start;
-  flex-wrap:wrap;
-  gap:18px;
-  position:relative;
-  max-width:1100px;
-  margin-inline:auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  justify-content: center;
+  gap: 20px;
+  max-width: 1100px;
+  margin-inline: auto;
+  position: relative;
 }
 .sectors-served__row::before{
   content:"";
@@ -649,3 +648,122 @@ html[dir="rtl"] .fa-arrow-right{ transform:scaleX(-1); }
 .faq-block .section-head{ text-align:start; margin-bottom:28px; }
 .faq-q{ padding:16px 18px; font-size:14.5px; }
 .faq-a > p{ padding-inline:18px; font-size:13.5px; }
+/* =========================================================
+   تعديلات إضافية مخصصة للهواتف والشاشات الصغيرة
+   ========================================================= */
+
+/* تعديل الـ Topbar ليصبح مرناً عمودياً على الموبايل */
+.topbar__row {
+  flex-direction: column;
+  text-align: center;
+  gap: 4px;
+  padding-block: 6px;
+}
+
+@media (min-width: 576px) {
+  .topbar__row {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+  }
+}
+
+/* تنسيقات الشاشات المتوسطة والصغيرة (الجوالات والتابلت) */
+@media (max-width: 991.98px) {
+  /* جعل القائمة المنسدلة قابلة للتمرير إذا كانت الروابط كثيرة */
+  .navbar-collapse {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  
+  /* ضبط المسافات بين أزرار اللغة والـ CTA في الموبايل */
+  .lang-toggle {
+    margin-block: 10px;
+    margin-inline: 0;
+  }
+  .btn--nav {
+    margin-inline: 0;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* كروت الرؤية والرسالة: ترتيب عمودي منطقي لمنع التداخل */
+  .vm-row {
+    margin-bottom: 40px;
+  }
+  .vm-media {
+    min-height: auto;
+    margin-block: 20px;
+    order: 2 !important; /* يضمن نزول الصورة أسفل النص دائماً في الجوال */
+  }
+  .vm-blob {
+    width: 70%;
+  }
+}
+
+/* تنسيقات الشاشات الصغيرة جداً (الهواتف الذكية) */
+@media (max-width: 767.98px) {
+  /* قسم الـ Hero: منع اختفاء النصوص خلف القائمة الثابتة وتصغير حجم الخط */
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding-block: 140px 60px;
+    display: flex;
+    align-items: center;
+  }
+  .hero__content h1 {
+    font-size: clamp(32px, 6vw, 42px);
+    line-height: 1.3;
+  }
+  .hero__lede {
+    font-size: 16px;
+  }
+  .hero__actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero__actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* قسم القطاعات: عرض عنصرين بجانب بعض في كل صف بشكل متناسق */
+  .sectors-served__row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .sector-item {
+    width: 100%;
+  }
+
+  /* ضبط أحجام كروت العملاء والـ FAQ لتناسب شاشات اللمس الضيقة */
+  .client-card {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+  .client-card__box {
+    min-height: 120px;
+    padding: 16px;
+  }
+  .faq-block {
+    margin-block-start: 24px;
+    padding-block-start: 20px;
+  }
+  .faq-q {
+    font-size: 14px;
+    padding: 14px 16px;
+  }
+}
+
+/* تحسينات عامة على النصوص والمساحات الثابتة */
+.fcard p {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 575.98px) {
+  /* إلغاء المحاذاة الممتدّة (justify) في الجوال لمنع تمدد الكلمات العربية بشكل قبيح */
+  p, .about-benefits__lede, .fcard p, .vision-mission p {
+    text-align: start !important;
+  }
+}
