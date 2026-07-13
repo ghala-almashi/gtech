@@ -258,7 +258,7 @@ const translations = {
 
     faq_eyebrow: "الأسئلة الشائعة",
     faq_title: "أهم الأسئلة",
-    faq1_q: "ما هي العلامات العالمية التي تتعامل معها جي-تك？",
+    faq1_q: "ما هي العلامات التجارية العالمية التي تعمل معها جي‑تك؟",
     faq1_a: "نحن مكامل أنظمة معتمد لدى Rockwell Automation، ونتعامل أيضاً مع Siemens وABB وEndress+Hauser وPepperl+Fuchs وSchneider Electric وDanfoss.",
     faq2_q: "ما نوع المشاريع التي تنفذونها؟",
     faq2_a: "من المشاريع المتكاملة (Turnkey) لخطوط إنتاج كاملة وأنظمة تحكم شاملة، إلى مشاريع تعديل وتحديث أنظمة بسيطة.",
