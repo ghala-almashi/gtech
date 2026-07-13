@@ -300,6 +300,135 @@ section[id]{
 .benefit-item h3{ font-size:16px; margin-bottom:4px; color:var(--ink); }
 .benefit-item p{ font-size:14px; color:var(--muted); max-width:52ch; }
 
+/* ------------Team--------------- */
+.team-container {
+    margin-top: 80px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.team-image img {
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.team-text {
+    max-width: 500px;
+}
+.team-container h1 {
+    margin-bottom: 40px; 
+}
+.specialties-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 30px;
+}
+.specialties-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.dot {
+    display: inline-block !important;
+    width: 14px !important;
+    height: 14px !important;
+    background-color: var(--primary-dark) !important;
+    border-radius: 50% !important;
+    margin-right: 15px !important;
+    flex-shrink: 0 !important;
+}
+.specialties-list li {
+    display: flex !important;
+    align-items: center !important;
+}
+.specialties-list li span {
+    display: inline-block !important; 
+    min-width: 14px;  
+    min-height: 14px;
+    background-color: var(--primary-dark) !important;
+    border-radius: 50%;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+/* =========================================================
+   Values
+   ========================================================= */
+.value-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; 
+  padding: 50px;
+  background-color: var(--accent-blue-tint);
+}
+.values-header {
+  text-align: center;
+  margin-top: 50px;    
+  margin-bottom: 20px; 
+}
+.values-header h2 {
+  font-size: 32px;
+  color: white; 
+  font-weight: bold;
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+}
+.value-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  flex: 1;
+  transition: transform 0.3s ease; 
+}
+.value-card:hover {
+  transform: translateY(-5px); 
+}
+.value-card i  {
+ font-size: 30px;
+  margin-bottom: 15px;
+}
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  background-color: var(--accent-blue-tint);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  
+  margin: 0 auto 15px auto; 
+}
+.icon-circle i {
+  font-size: 32px;
+color:var(--accent-blue);
+}
+.value-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.value-description {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+
 /* =========================================================
    SECTION HEAD (shared)
    ========================================================= */
@@ -484,6 +613,37 @@ section[id]{
 .cta{ background:var(--primary-dark); padding-block:80px; }
 .cta h2{ color:#fff; font-size:clamp(24px,2.8vw,32px); margin-bottom:8px; }
 .cta p{ color:#CFE3D6; font-size:15.5px; max-width:46ch; }
+
+/* =========================================================
+   FORM
+   ========================================================= */
+.contact-form-wrapper {
+  margin: 40px auto 0 auto; 
+  background: white; 
+  max-width: 700px;   
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1); 
+  padding: 30px;
+  border-radius: 10px;
+}
+.cform {
+  margin: 0 auto;  
+  padding: 20px;
+}
+.contact-form-wrapper input, 
+.contact-form-wrapper textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.cform input:focus, .cform textarea:focus {
+  border-color: var(--primary-dark);
+  outline: none;
+}
+
 
 /* =========================================================
    FOOTER

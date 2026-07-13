@@ -40,6 +40,29 @@ const translations = {
     benefit2_title: "Engineering",
     benefit2_desc: "Expertise in instrumentation and electrical engineering, delivering reliable solutions that meet global standards.",
 
+    // ---- Team ---- 
+    our_team: "Our Team",
+    our_desc: "We believe that our most valuable asset is our Human Resources. We have selected the top quality engineers and technicians the market can provide.",
+    specialties: "Technicians and engineers with different specialties:",
+    specialties1_desc: "Process Engineers",
+    specialties2_desc: "Safety engineers & technicians",
+    specialties3_desc: "Instrument engineers & technicians",
+    specialties4_desc: "Electrical engineers & technicians",
+    specialties5_desc: "Mechanical engineers & technicians",
+    specialties6_desc: "Planners",
+    specialties7_desc: "Quality Assurance / Control",
+
+    // ---- Values ----
+    first_value: "Less Time",
+    first_desc: "Providing fast and practical solutions to ensure timely project delivery.",
+    second_value: "Less Cost",
+    second_desc: "Advanced technologies that reduce operational costs and boost production efficiency.",
+    third_value: "More Efficiency",
+    third_desc: "Optimizing industrial systems' performance to increase precision and minimize waste.",
+    Fourth_value: "High Quality",
+    Fourth_desc: "Global standards commitment to deliver solutions that exceed customer expectations.",
+
+
     // ---- vision & mission ----
     vision_title: "Our Vision",
     vision_text: "To be a worldwide company which is seen by employees, customers, competitors, investors and suppliers as a model of exemplary performance of companies working in the field of engineering, construction, Commissioning and maintenance",
@@ -77,7 +100,7 @@ const translations = {
     "process.4.desc": "On-site installation, testing and hand-over.",
     "process.5.title": "Support",
     "process.5.desc": "Ongoing operation, maintenance and training.",
-    
+
     // ---- sectors ----
     sectors_eyebrow: "What We Do?",
     sectors_title: "Sectors We Serve",
@@ -149,7 +172,7 @@ const translations = {
     faq3_q: "Do you provide maintenance after installation?",
     faq3_a: "Yes, operation & maintenance is one of our core services for oil & gas, power stations, and other industries.",
   },
- 
+
 
   ar: {
     // ---- topbar ----
@@ -187,6 +210,28 @@ const translations = {
     benefit2_title: "الهندسة",
     benefit2_desc: "خبرة في هندسة القياس والكهرباء، بحلول موثوقة تلبي المعايير العالمية.",
 
+    // ---- Team ---- 
+    our_team: "فريقنا",
+    our_desc: "نحن نؤمن بأن أثمن أصولنا هو مواردنا البشرية، وقد اخترنا أفضل المهندسين والفنيين ذوي الجودة العالية الذين يمكن أن يوفرهم السوق.",
+    specialties: "فنيون ومهندسون بتخصصات مختلفة:",
+    specialties1_desc: "مهندسو عمليات",
+    specialties2_desc: "مهندسو وفنيو سلامة",
+    specialties3_desc: "مهندسو وفنيو أجهزة دقيقة",
+    specialties4_desc: "مهندسو وفنيو كهرباء",
+    specialties5_desc: "مهندسو وفنيو ميكانيكا",
+    specialties6_desc: "مخططون",
+    specialties7_desc: "ضمان / مراقبة الجودة",
+
+    // ---- Values ----
+    first_value: "وقت أقل",
+    first_desc: "حلول سريعة وعملية تضمن إنجاز مشاريعكم في أقل وقت ممكن.",
+    second_value: "تكلفة أقل",
+    second_desc: "تقنيات متطورة تقلل التكاليف التشغيلية وترفع من كفاءة الإنتاج.",
+    third_value: "كفاءة أعلى",
+    third_desc: "تحسين أداء الأنظمة الصناعية لزيادة الدقة وتقليل الهدر.",
+    Fourth_value: "جودة عالية",
+    Fourth_desc: "معايير عالمية نلتزم بها لتقديم حلول تتجاوز توقعات عملائنا.",
+
     // ---- vision & mission ----
     vision_title: "رؤيتنا",
     vision_text: "أن نكون شركة رائدة عالميًا، يُنظر إليها من قبل الموظفين والعملاء والمستثمرين والموردين والمنافسين كنموذج للتميز والاحترافية في مجالات الهندسة والإنشاءات والتشغيل التجريبي (Commissioning) والصيانة.",
@@ -208,8 +253,8 @@ const translations = {
     feat5_desc: "تصميم وتوريد وتركيب أنظمة إدارة المباني المتكاملة مع الأتمتة الصناعية.",
     feat6_title: "الإنشاءات الكهروميكانيكية",
     feat6_desc: "حلول مقاولات MEP كاملة للمنشآت الصناعية والتجارية.",
-    
-// ---- our process ----
+
+    // ---- our process ----
     nav_process: "منهجية العمل",
     process_eyebrow: "كيف نعمل",
     process_title: "منهجية عملنا",
@@ -223,7 +268,7 @@ const translations = {
     "process.4.desc": "التركيب والاختبار والتسليم في الموقع.",
     "process.5.title": "الدعم",
     "process.5.desc": "تشغيل وصيانة وتدريب مستمر.",
-    
+
     // ---- sectors ----
     sectors_eyebrow: "مجالات عملنا",
     sectors_title: "القطاعات التي نخدمها",
@@ -234,7 +279,7 @@ const translations = {
     sector5: "تغليف<br>الأغذية",
     sector6: "منتجات تحويل<br>الورق",
     sector_more: "قطاعات<br>أخرى",
-      
+
     // ---- why choose ----
     why_title: "لماذا تختار جي‑تك؟",
     why1: "سنوات من الخبرة في المجال",
@@ -328,10 +373,10 @@ function applyLanguage(lang) {
   // 4) update the toggle button label (shows a single-letter shortcut for the OTHER language)
   const toggleBtn = document.getElementById("langToggle");
   if (toggleBtn) {
-  const showingArabicLetter = lang !== "ar";
-  toggleBtn.textContent = showingArabicLetter ? "ع" : "A";
-  toggleBtn.classList.toggle("is-ain", showingArabicLetter);
-}
+    const showingArabicLetter = lang !== "ar";
+    toggleBtn.textContent = showingArabicLetter ? "ع" : "A";
+    toggleBtn.classList.toggle("is-ain", showingArabicLetter);
+  }
 
   localStorage.setItem("gtech_lang", lang);
 }
