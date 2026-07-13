@@ -124,7 +124,17 @@ const translations = {
     capability1_desc: "Reliable data communication and acquisition packages that keep every layer of the plant connected.",
     capability2_title: "Plant-Wide Network Integration",
     capability2_desc: "Connection of SCADA and PLC networks to plant-wide networks using TCP/IP and Ethernet, on Windows®-based systems.",
+
+    faq_eyebrow: "FAQ",
+    faq_title: "Common Questions",
+    faq1_q: "Which global brands does G-Tech work with?",
+    faq1_a: "We are an authorized Rockwell Automation system integrator and work with Siemens, ABB, Endress+Hauser, Pepperl+Fuchs, Schneider Electric, and Danfoss.",
+    faq2_q: "What kind of projects do you deliver?",
+    faq2_a: "Everything from turnkey production lines and full control systems to simple system adjustments and upgrades.",
+    faq3_q: "Do you provide maintenance after installation?",
+    faq3_a: "Yes, operation & maintenance is one of our core services for oil & gas, power stations, and other industries.",
   },
+ 
 
   ar: {
     // ---- topbar ----
@@ -245,8 +255,18 @@ const translations = {
     capability1_desc: "حزم موثوقة لاتصال البيانات وجمعها تُبقي كل طبقة في المنشأة متصلة.",
     capability2_title: "دمج الشبكات على مستوى المنشأة",
     capability2_desc: "ربط شبكات SCADA وPLC بالشبكات العامة للمنشأة باستخدام TCP/IP وEthernet على أنظمة ®Windows.",
+
+    faq_eyebrow: "الأسئلة الشائعة",
+    faq_title: "أهم الأسئلة",
+    faq1_q: "ما هي العلامات العالمية التي تتعامل معها جي-تك？",
+    faq1_a: "نحن مكامل أنظمة معتمد لدى Rockwell Automation، ونتعامل أيضاً مع Siemens وABB وEndress+Hauser وPepperl+Fuchs وSchneider Electric وDanfoss.",
+    faq2_q: "ما نوع المشاريع التي تنفذونها؟",
+    faq2_a: "من المشاريع المتكاملة (Turnkey) لخطوط إنتاج كاملة وأنظمة تحكم شاملة، إلى مشاريع تعديل وتحديث أنظمة بسيطة.",
+    faq3_q: "هل تقدمون الصيانة بعد التركيب؟",
+    faq3_a: "نعم، التشغيل والصيانة من خدماتنا الأساسية لقطاعات النفط والغاز ومحطات الطاقة وغيرها من الصناعات.",
   }
 };
+
 
 const BOOTSTRAP_LTR = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css";
 const BOOTSTRAP_RTL = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.rtl.min.css";

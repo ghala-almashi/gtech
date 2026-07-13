@@ -477,7 +477,7 @@ section[id]{
 /* =========================================================
    CTA
    ========================================================= */
-.cta{ background:var(--primary-dark); padding-block:64px; }
+.cta{ background:var(--primary-dark); padding-block:80px; }
 .cta h2{ color:#fff; font-size:clamp(24px,2.8vw,32px); margin-bottom:8px; }
 .cta p{ color:#CFE3D6; font-size:15.5px; max-width:46ch; }
 
@@ -584,3 +584,68 @@ html[dir="rtl"] .fa-arrow-right{ transform:scaleX(-1); }
 
 .site-header .lang-toggle{ background:rgba(255,255,255,0.16); border-color:rgba(255,255,255,0.5); }
 .site-header.is-scrolled .lang-toggle{ background:var(--primary); border-color:transparent; }
+
+/* =========================================================
+   FAQ (embedded inside the CTA / contact section)
+   ========================================================= */
+
+.faq-list{ display:flex; flex-direction:column; gap:14px; }
+
+.faq-item{
+  border:1px solid rgba(255,255,255,0.18);
+  border-radius:var(--radius);
+  background:rgba(255,255,255,0.06);
+  overflow:hidden;
+  transition:border-color .2s ease;
+}
+.faq-item.open{ border-color:#fff; }
+
+.faq-q{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  padding:20px 22px;
+  background:transparent;
+  border:none;
+  text-align:start;
+  font-family:var(--font-body);
+  font-size:16px;
+  font-weight:600;
+  color:#fff;
+  cursor:pointer;
+}
+.faq-q i{
+  flex-shrink:0;
+  color:var(--primary-tint);
+  transition:transform .25s ease;
+}
+.faq-item.open .faq-q i{ transform:rotate(180deg); }
+
+.faq-a{
+  display:grid;
+  grid-template-rows:0fr;
+  transition:grid-template-rows .3s ease;
+}
+.faq-a > p{
+  overflow:hidden;
+  min-height:0;
+  padding-inline:22px;
+  color:#CFE3D6;
+  font-size:14.5px;
+  line-height:1.7;
+}
+.faq-item.open .faq-a{ grid-template-rows:1fr; }
+.faq-item.open .faq-a > p{ padding-block-end:20px; }
+
+.faq-block{
+  max-width:680px;
+  margin-inline:0;
+  margin-block-start:32px;
+  padding-block-start:30px;
+  border-top:1px solid rgba(255,255,255,0.15);
+}
+.faq-block .section-head{ text-align:start; margin-bottom:28px; }
+.faq-q{ padding:16px 18px; font-size:14.5px; }
+.faq-a > p{ padding-inline:18px; font-size:13.5px; }

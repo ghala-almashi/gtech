@@ -36,7 +36,23 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
+// FAQ accordion — one question open at a time
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
 
+      document.querySelectorAll('.faq-item.open').forEach(openItem => {
+        if (openItem !== item) {
+          openItem.classList.remove('open');
+          openItem.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      item.classList.toggle('open', !isOpen);
+      btn.setAttribute('aria-expanded', String(!isOpen));
+    });
+  });
   // Simple client-side handling for the newsletter form (demo only —
   // replace with a real endpoint before going live)
   const subscribeForm = document.getElementById('subscribeForm');
