@@ -335,6 +335,11 @@ section[id]{
 }
 .fcard__blob i{ font-size:32px; color:var(--accent-blue); transform:translate(-5px,-5px); }
 
+.fcard .card-link{
+  position:absolute;
+  inset:0;
+  z-index:2;
+}
 
 /* =========================================================
    why choose gtech?
