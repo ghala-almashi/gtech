@@ -63,6 +63,21 @@ const translations = {
     feat6_title: "Electromechanical Construction",
     feat6_desc: "Full MEP contracting solutions for industrial and commercial facilities.",
 
+    // ---- our process ----
+    nav_process: "Process",
+    process_eyebrow: "How We Work",
+    process_title: "Our Process",
+    "process.1.title": "Assess",
+    "process.1.desc": "Site survey and review of existing systems and constraints.",
+    "process.2.title": "Design",
+    "process.2.desc": "Engineering drawings and specifications to global standards.",
+    "process.3.title": "Build",
+    "process.3.desc": "Panel fabrication and system integration in-house.",
+    "process.4.title": "Commission",
+    "process.4.desc": "On-site installation, testing and hand-over.",
+    "process.5.title": "Support",
+    "process.5.desc": "Ongoing operation, maintenance and training.",
+    
     // ---- sectors ----
     sectors_eyebrow: "What We Do?",
     sectors_title: "Sectors We Serve",
@@ -193,7 +208,22 @@ const translations = {
     feat5_desc: "تصميم وتوريد وتركيب أنظمة إدارة المباني المتكاملة مع الأتمتة الصناعية.",
     feat6_title: "الإنشاءات الكهروميكانيكية",
     feat6_desc: "حلول مقاولات MEP كاملة للمنشآت الصناعية والتجارية.",
-
+    
+// ---- our process ----
+    nav_process: "منهجية العمل",
+    process_eyebrow: "كيف نعمل",
+    process_title: "منهجية عملنا",
+    "process.1.title": "التقييم",
+    "process.1.desc": "معاينة الموقع ومراجعة الأنظمة والقيود الحالية.",
+    "process.2.title": "التصميم",
+    "process.2.desc": "رسومات ومواصفات هندسية وفق المعايير العالمية.",
+    "process.3.title": "التنفيذ",
+    "process.3.desc": "تصنيع اللوحات ودمج الأنظمة داخلياً.",
+    "process.4.title": "التشغيل التجريبي",
+    "process.4.desc": "التركيب والاختبار والتسليم في الموقع.",
+    "process.5.title": "الدعم",
+    "process.5.desc": "تشغيل وصيانة وتدريب مستمر.",
+    
     // ---- sectors ----
     sectors_eyebrow: "مجالات عملنا",
     sectors_title: "القطاعات التي نخدمها",
@@ -204,7 +234,7 @@ const translations = {
     sector5: "تغليف<br>الأغذية",
     sector6: "منتجات تحويل<br>الورق",
     sector_more: "قطاعات<br>أخرى",
-
+      
     // ---- why choose ----
     why_title: "لماذا تختار جي‑تك؟",
     why1: "سنوات من الخبرة في المجال",
