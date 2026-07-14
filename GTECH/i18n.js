@@ -171,6 +171,26 @@ const translations = {
     faq2_a: "Everything from turnkey production lines and full control systems to simple system adjustments and upgrades.",
     faq3_q: "Do you provide maintenance after installation?",
     faq3_a: "Yes, operation & maintenance is one of our core services for oil & gas, power stations, and other industries.",
+
+    // ---- services: electromechanical construction page ----
+    svc_em_crumbs: "HOME &rsaquo; SERVICES &rsaquo; ELECTROMECHANICAL CONSTRUCTION",
+    svc_em_h1: "Electromechanical Construction",
+    svc_em_intro: "Installation of HVAC systems, fire-fighting systems, and piping &amp; duct networks.",
+    svc_em_overview_title: "Overview",
+    svc_em_overview_text: "G-TECH provides comprehensive electromechanical construction services, including the supply and installation of BMS and smart home systems, seamlessly integrated with industrial automation for enhanced operational control.",
+    svc_em_included_title: "What's Included",
+    svc_em_item1: "BMS system supply &amp; installation",
+    svc_em_item2: "Smart home systems integration",
+    svc_em_item3: "Industrial electromechanical construction",
+    svc_em_item4: "System interoperability &amp; configuration",
+    svc_em_item5: "Comprehensive site execution",
+    svc_em_footer_desc: "G-Tech Automation is an independent instrumentation, process control, and industrial automation company.",
+    svc_em_footer_location: "Jeddah, Saudi Arabia",
+    svc_em_footer_support_label: "For any support: ",
+    svc_em_footer_sales_label: "Sales Manager: ",
+    svc_em_footer_technical_label: "Technical Manager: ",
+    svc_em_footer_bottom: "© 2026 G-Tech Automation. All rights reserved.",
+  
   },
 
 
@@ -339,8 +359,28 @@ const translations = {
     faq2_a: "من المشاريع المتكاملة (Turnkey) لخطوط إنتاج كاملة وأنظمة تحكم شاملة، إلى مشاريع تعديل وتحديث أنظمة بسيطة.",
     faq3_q: "هل تقدمون الصيانة بعد التركيب؟",
     faq3_a: "نعم، التشغيل والصيانة من خدماتنا الأساسية لقطاعات النفط والغاز ومحطات الطاقة وغيرها من الصناعات.",
+
+    // ---- services: electromechanical construction page ----
+    svc_em_crumbs: "الرئيسية &rsaquo; الخدمات &rsaquo; التنفيذ الكهروميكانيكي",
+    svc_em_h1: "التنفيذ الكهروميكانيكي",
+    svc_em_intro: "تركيب أنظمة التكييف (HVAC) ومكافحة الحريق وشبكات الأنابيب والمجاري الهوائية.",
+    svc_em_overview_title: "نظرة عامة",
+    svc_em_overview_text: "تقدم شركة G-TECH خدمات إنشاءات كهروميكانيكية متكاملة، تشمل توريد وتركيب أنظمة إدارة المباني (BMS) وأنظمة المنازل الذكية، مع دمجها بسلاسة في أنظمة الأتمتة الصناعية لتعزيز التحكم التشغيلي.",
+    svc_em_included_title: "ماذا يشمل هذا الحل",
+    svc_em_item1: "توريد وتركيب أنظمة إدارة المباني (BMS)",
+    svc_em_item2: "دمج أنظمة المنازل الذكية",
+    svc_em_item3: "الإنشاءات الكهروميكانيكية الصناعية",
+    svc_em_item4: "توافق وتهيئة الأنظمة",
+    svc_em_item5: "تنفيذ شامل للمواقع",
+    svc_em_footer_desc: "جي-تك أوتوميشن شركة مستقلة متخصصة في أدوات القياس والتحكم بالعمليات والأتمتة الصناعية.",
+    svc_em_footer_location: "جدة، المملكة العربية السعودية",
+    svc_em_footer_support_label: "للدعم الفني: ",
+    svc_em_footer_sales_label: "مدير المبيعات: ",
+    svc_em_footer_technical_label: "المدير الفني: ",
+    svc_em_footer_bottom: "© 2026 جي-تك أوتوميشن. جميع الحقوق محفوظة.",
   }
 };
+
 
 
 const BOOTSTRAP_LTR = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css";
