@@ -6,7 +6,7 @@
 const translations = {
   en: {
     // ---- topbar ----
-    topbar_location: "Jeddah, Saudi Arabia",
+    topbar_location: "Jada 30, Makkah, Saudi Arabia",
     topbar_hours: "Sun – Thu, 8:00 – 17:00",
 
     // ---- nav ----
@@ -269,7 +269,7 @@ const translations = {
 
   ar: {
     // ---- topbar ----
-    topbar_location: "جدة، المملكة العربية السعودية",
+    topbar_location: "جادة 30، مكة المكرمة، المملكة العربية السعودية",
     topbar_hours: "الأحد – الخميس، ٨:٠٠ – ٥:٠٠",
 
     // ---- nav ----
@@ -481,7 +481,7 @@ const translations = {
     footer_email_placeholder: "بريدك الإلكتروني",
     footer_join_btn: "اشترك",
     footer_copyright: "جي‑تك للأتمتة. جميع الحقوق محفوظة.",
-    footer_address: "جدة، المملكة العربية السعودية",
+    footer_address: "جادة 30، مكة المكرمة، المملكة العربية السعودية",
 
     // ---- project.html hero ----
     project_eyebrow: "المشاريع",

@@ -999,3 +999,60 @@ html[dir="rtl"] .fa-arrow-right{ transform:scaleX(-1); }
     .pv-pill{ padding:12px 16px; gap:10px; }
     .pv-badge{ width:30px; height:30px; font-size:12px; }
 }
+
+.reveal{
+    opacity:0;
+    transform:translateY(60px);
+    transition:all .8s ease;
+}
+
+.reveal.active{
+    opacity:1;
+    transform:translateY(0);
+}
+
+.clients-slider{
+    overflow:hidden;
+    width:100%;
+    padding:40px 0;
+}
+
+.slide-track{
+    display:flex;
+    width:max-content;
+    animation:scroll 50s linear infinite;
+}
+
+.slide-track img{
+    height:80px;
+    margin:0 50px;
+}
+
+/* English animation */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Moves left */
+}
+
+/* Arabic (RTL) */
+html[dir="rtl"] .slide-track {
+  animation: scroll-rtl 50s linear infinite; /* Updated class and matched duration */
+}
+
+@keyframes scroll-rtl {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(50%); } /* Moves right instead */
+}
+
+.reveal{
+    opacity:0;
+    transform:translateY(60px);
+    transition:
+        opacity .8s ease,
+        transform .8s ease;
+}
+
+.reveal.active{
+    opacity:1;
+    transform:translateY(0);
+}

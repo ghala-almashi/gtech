@@ -24,6 +24,19 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
+  const reveals = document.querySelectorAll(".reveal");
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add("active");
+        }
+    });
+},{
+    threshold:0.2
+});
+
+reveals.forEach(el => observer.observe(el));
   // Close the mobile nav automatically after a link is tapped
   const navCollapseEl = document.getElementById('siteNav');
   if (navCollapseEl) {
@@ -106,3 +119,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+const reveals = document.querySelectorAll(".reveal");
+
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add("active");
+        }
+    });
+},{
+    threshold:0.15
+});
+
+reveals.forEach(section=>observer.observe(section));
