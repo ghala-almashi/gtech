@@ -263,6 +263,13 @@ const translations = {
     svc_em_footer_sales_label: "Sales Manager: ",
     svc_em_footer_technical_label: "Technical Manager: ",
     svc_em_footer_bottom: "© 2026 G-Tech Automation. All rights reserved.",
+
+    //form
+    form_inquiry:"Send us your inquiry",
+    name:"Full Name",
+    email:"Email",
+    message:"Your Message",
+    send_message:"Send Message",
   
   },
 
@@ -524,6 +531,13 @@ const translations = {
     svc_em_footer_sales_label: "مدير المبيعات: ",
     svc_em_footer_technical_label: "المدير الفني: ",
     svc_em_footer_bottom: "© 2026 جي-تك أوتوميشن. جميع الحقوق محفوظة.",
+
+     //form
+    form_inquiry:"أرسل لنا استفسارك",
+    name1:"الأسم الكامل",
+    email:"البريد الإلكتروني",
+    message:"رسالتك",
+    send_message:"إرسال الرسالة",
   }
 };
 
