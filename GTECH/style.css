@@ -5,8 +5,8 @@
 
 :root{
   /* ---- color tokens ---- */
-  --primary:      #427466;
-  --primary-dark: #285548;
+  --primary:      #257D2D;
+  --primary-dark: #37684B;
   --primary-tint: #cfe1dc;
   --accent-blue: #3D6E93;
   --accent-blue-tint: #DCE7EE;
@@ -1055,4 +1055,163 @@ html[dir="rtl"] .slide-track {
 .reveal.active{
     opacity:1;
     transform:translateY(0);
+}
+/* =========================================================
+   G-TECH VIDEO HERO SECTION 
+   ========================================================= */
+.hero-video-section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #050d0a; /* لون احتياطي داكن جداً متناسق مع الفيديو */
+}
+
+/* تمديد وتوسيط الفيديو ليمر خلف كامل الشاشة */
+.hero-bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* فلتر تدرج داكن لحماية تباين النصوص وتنسيق ألوان الهوية */
+.hero-video-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(5, 13, 10, 0.85) 0%, rgba(0, 0, 0, 0.4) 100%);
+  z-index: 2;
+}
+
+/* دعم اتجاه الفلتر عند التبديل للغة العربية */
+html[dir="rtl"] .hero-video-overlay {
+  background: linear-gradient(270deg, rgba(5, 13, 10, 0.85) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.hero-video-container {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+}
+
+.hero-video-content {
+  max-width: 650px;
+  animation: videoHeroFadeUp 1s ease-out forwards;
+}
+
+.hero-video-title {
+  color: #ffffff;
+  font-size: clamp(30px, 4.5vw, 48px);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 12px 0 20px 0;
+  font-family: var(--font-display);
+}
+
+.hero-video-desc {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: clamp(15px, 1.6vw, 18px);
+  line-height: 1.6;
+  margin-bottom: 36px;
+}
+
+/* تنسيق الأزرار المبسطة الدائرية المأخوذة من الطابع النظيف */
+.hero-video-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn-schneider {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 34px;
+  border-radius: 30px; /* زوايا دائرية كاملة ونظيفة */
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* الزر الأساسي بلون هويتك الأخضر الكربوني الفاخر */
+.btn-schneider--primary {
+  background-color: var(--primary);
+  color: #fff;
+  border: 2px solid var(--primary);
+}
+
+.btn-schneider--primary:hover {
+  background-color: #0b7348; /* درجة أفتح طفيفة للتفاعل */
+  border-color: #0b7348;
+  transform: translateY(-2px);
+}
+
+/* الزر المفرغ المضيء بالحواف */
+.btn-schneider--outline {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.btn-schneider--outline:hover {
+  background-color: #ffffff;
+  color: #050d0a;
+  transform: translateY(-2px);
+}
+
+/* حركة دخول النص بشكل ناعم وراقٍ جداً */
+@keyframes videoHeroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* تجاوب الشاشات الصغيرة والجوال */
+@media (max-width: 767.98px) {
+  .hero-video-section {
+    height: auto;
+    min-height: 100vh;
+    padding: 120px 0 60px 0;
+  }
+  .hero-video-title {
+    font-size: 28px;
+  }
+  .hero-video-desc {
+    font-size: 15px;
+  }
+  .hero-video-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .btn-schneider {
+    width: 100%;
+  }
+}
+.footer__col ul {
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+html[dir="rtl"] .footer__col ul {
+  text-align: right;
+}
+
+.footer__social-block .footer__social {
+  margin-top: 10px;
 }

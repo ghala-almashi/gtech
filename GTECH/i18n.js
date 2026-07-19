@@ -270,7 +270,10 @@ const translations = {
     email:"Email",
     message:"Your Message",
     send_message:"Send Message",
-  
+
+  hero_btn_explore: "Explore Our Services",
+  hero_btn_talk: "Talk to Us",
+  footer_social_title: "Connect With Us",
   },
 
 
@@ -538,6 +541,9 @@ const translations = {
     email:"البريد الإلكتروني",
     message:"رسالتك",
     send_message:"إرسال الرسالة",
+  hero_btn_explore: "اكتشف خدماتنا",
+  hero_btn_talk: "تحدث معنا",
+  footer_social_title: "تواصل معنا",
   }
 };
 
