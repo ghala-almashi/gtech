@@ -286,6 +286,10 @@ const translations = {
     email: "Email",
     message: "Your Message",
     send_message: "Send Message",
+    form_name_placeholder: "Full Name",
+    form_email_placeholder: "Email",
+    form_subject_placeholder: "Subject",
+    form_message_placeholder: "Your Message",
 
     hero_btn_explore: "Explore Our Services",
     hero_btn_talk: "Talk to Us",
