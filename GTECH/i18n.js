@@ -227,7 +227,7 @@ const translations = {
     footer_email_placeholder: "Your email address",
     footer_join_btn: "Join",
     footer_copyright: "G·Tech Automation. All rights reserved.",
-    footer_address: "Jeddah, Kingdom of Saudi Arabia",
+    footer_address: "Jada 30, Makkah, Saudi Arabia",
 
     // ---- project.html hero ----
     project_eyebrow: "Project",
@@ -242,6 +242,15 @@ const translations = {
     capability1_desc: "Reliable data communication and acquisition packages that keep every layer of the plant connected.",
     capability2_title: "Plant-Wide Network Integration",
     capability2_desc: "Connection of SCADA and PLC networks to plant-wide networks using TCP/IP and Ethernet, on Windows®-based systems.",
+
+    // ---- contact.html ----
+    crumbs_contact: "HOME &rsaquo; CONTACT",
+    contact_page_title: "Get in Touch",
+    contact_page_lede: "Tell us about your plant, your project or your problem. We respond fast and accurately.",
+    addr_label: "Our Address",
+    phone_label: "Call Us",
+    email_label: "Email Us",
+    hours_label: "Working Hours",
 
     faq_eyebrow: "FAQ",
     faq_title: "Common Questions",
@@ -526,6 +535,15 @@ const translations = {
     capability2_title: "دمج الشبكات على مستوى المنشأة",
     capability2_desc: "ربط شبكات SCADA وPLC بالشبكات العامة للمنشأة باستخدام TCP/IP وEthernet على أنظمة ®Windows.",
 
+    // ---- contact.html ----
+    crumbs_contact: "الرئيسية &rsaquo; تواصل معنا",
+    contact_page_title: "تواصل معنا",
+    contact_page_lede: "أخبرنا عن منشأتك أو مشروعك أو المشكلة التي تواجهها، ونحن نرد بسرعة ودقة.",
+    addr_label: "عنواننا",
+    phone_label: "اتصل بنا",
+    email_label: "راسلنا",
+    hours_label: "ساعات العمل",
+
     faq_eyebrow: "الأسئلة الشائعة",
     faq_title: "أهم الأسئلة",
     faq1_q: "ما هي العلامات التجارية العالمية التي تعمل معها جي‑تك؟",
@@ -534,6 +552,13 @@ const translations = {
     faq2_a: "من المشاريع المتكاملة (Turnkey) لخطوط إنتاج كاملة وأنظمة تحكم شاملة، إلى مشاريع تعديل وتحديث أنظمة بسيطة.",
     faq3_q: "هل تقدمون الصيانة بعد التركيب؟",
     faq3_a: "نعم، التشغيل والصيانة من خدماتنا الأساسية لقطاعات النفط والغاز ومحطات الطاقة وغيرها من الصناعات.",
+
+    // Add these to your Arabic translation object
+"form_name_placeholder": "الاسم كامل",
+"form_email_placeholder": "البريد الإلكتروني",
+"form_subject_placeholder": "الموضوع",
+"form_message_placeholder": "رسالتك",
+
 
     // ---- services: electromechanical construction page ----
     svc_em_crumbs: "الرئيسية &rsaquo; الخدمات &rsaquo; التنفيذ الكهروميكانيكي",

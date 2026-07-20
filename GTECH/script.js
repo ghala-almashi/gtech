@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       header.classList.remove('is-scrolled');
     }
-    document.getElementById('logoImg').src = window.scrollY > 8 ? 'img/logo-g.png' : 'img/logo.png';
+    const isSubpage = document.body.classList.contains('subpage');
+    document.getElementById('logoImg').src = (isSubpage || window.scrollY > 8) ? 'img/logo-g.png' : 'img/logo.png';
   };
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
