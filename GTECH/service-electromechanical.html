@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,41 +13,35 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-   <header class="site-header">
-    <div class="header-inner">
-      <a href="HomePage.html" class="brand">
-        <img src="logic-style\G-TECH AUTOMATION-logo2.png" alt="GTECH logo" style="height:70px;">
-      </a>
-        <nav class="main-nav">
-        <a href="HomePage.html" data-i18n="nav_home">Home</a>
-        <a href="about.html" data-i18n="nav_about">About</a>
-        <a href="services.html" class="active" data-i18n="nav_services">Services</a>
-        <a href="Contact.html" data-i18n="nav_contact">Contact</a>
-        <a href="projects.html" data-i18n="nav_projects">Projects</a>
-      </nav>
-      <div class="header-actions">
-        <button class="icon-btn lang-btn" id="langToggle" aria-label="Language">ع</button>
-        <button class="icon-btn burger" aria-label="Menu" aria-expanded="false">☰</button>
-      </div>
-    </div>
-  </header>
-
-  <div class="page-banner">
-    <div class="container">
-      <div class="crumbs" data-i18n="svc_em_crumbs">HOME &rsaquo; SERVICES &rsaquo; ELECTROMECHANICAL CONSTRUCTION</div>
-      <h1 data-i18n="svc_em_h1">Electromechanical Construction</h1>
-      <p data-i18n="svc_em_intro">Installation of HVAC systems, fire-fighting systems, and piping &amp; duct networks.</p>
-      </div>
+ 
+  <!-- ============ SIMPLE TOP BAR ============ -->
+  <div class="svc-topbar">
+    <a href="index.html" class="svc-topbar__logo">
+      <img src="logic-style\G-TECH AUTOMATION-logo2.png" alt="GTECH logo">
+    </a>
+    <a href="index.html#services" class="svc-topbar__back">
+      <i class="fa-solid fa-arrow-left"></i>
+      <span data-i18n="back">Back</span>
+    </a>
   </div>
-
+ 
+  <!-- ============ SERVICE HERO ============ -->
+  <section class="svc-hero" style="background-image:url('img/services-hero.jpg');">
+    <div class="svc-hero__overlay"></div>
+    <div class="svc-hero__content">
+      <p class="svc-hero__crumbs" data-i18n="svc_em_crumbs">HOME &rsaquo; SERVICES &rsaquo; ELECTROMECHANICAL CONSTRUCTION</p>
+      <h1 data-i18n="svc_em_h1">Electromechanical Construction</h1>
+      <p class="svc-hero__desc" data-i18n="svc_em_intro">Installation of HVAC systems, fire-fighting systems, and piping &amp; duct networks.</p>
+    </div>
+  </section>
+ 
   <section>
     <div class="container">
       <div class="grid grid-2">
         <div>
           <div class="icon-tile" style="margin-bottom:20px;"><i class="fa-solid fa-gears"></i></div>
-<h2 style="margin:0 0 14px;" data-i18n="svc_em_overview_title">Overview</h2>
+          <h2 style="margin:0 0 14px;" data-i18n="svc_em_overview_title">Overview</h2>
           <p style="color:#5B6472;" data-i18n="svc_em_overview_text">G-TECH provides comprehensive electromechanical construction services, including the supply and installation of BMS and smart home systems, seamlessly integrated with industrial automation for enhanced operational control.</p>
         </div>
         <div class="card">
@@ -79,10 +72,8 @@
       </div>
     </div>
   </section>
-
-\
-
+ 
   <script src="logic-style/logic.js"></script>
+  <script src="i18n.js"></script>
 </body>
-
 </html>
