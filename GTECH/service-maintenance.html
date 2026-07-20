@@ -17,35 +17,26 @@
 
 <body>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="HomePage.html" class="brand">
-        <img src="logic-style\G-TECH AUTOMATION-logo2.png" alt="GTECH logo" style="height:70px;">
-      </a>
-      <nav class="main-nav">
-        <a href="HomePage.html" data-en="Home">الرئيسية</a>
-        <a href="about.html" data-en="About Us">من نحن</a>
-        <a href="services.html" class="active" data-en="Services">الخدمات</a>
-        <a href="Contact.html" data-en="Contact Us">تواصل معنا</a>
-        <a href="projects.html" data-en="Projects">المشاريع</a>
-      </nav>
-      <div class="header-actions">
-        <button class="icon-btn lang-btn" aria-label="اللغة">EN</button>
-        <button class="icon-btn burger" aria-label="القائمة" aria-expanded="false">☰</button>
-      </div>
-    </div>
-  </header>
-
-  <div class="page-banner">
-    <div class="container">
-      <div class="crumbs" data-i18n="maint_page_name">الرئيسية &rsaquo;
-        الخدمات &rsaquo; التشغيل والصيانة
-      </div>
-      <h1 data-i18n="maint_header_title">التشغيل والصيانة</h1>
-      <p data-i18n="maint_header_desc">خدمات
-        تشغيل وصيانة مستمرة لمشاريع النفط والغاز ومحطات الطاقة وغيرها.</p>
-    </div>
+  <!-- ============ SIMPLE TOP BAR ============ -->
+  <div class="svc-topbar">
+    <a href="index.html" class="svc-topbar__logo">
+      <img src="img/logo-g.png" alt="GTECH logo" style="height:44px;">
+    </a>
+    <a href="index.html#services" class="svc-topbar__back">
+      <i class="fa-solid fa-arrow-left"></i>
+      <span data-i18n="back">Back</span>
+    </a>
   </div>
+
+  <!-- ============ SERVICE HERO ============ -->
+  <section class="svc-hero" style="background-image:url('img/services-hero.jpg');">
+    <div class="svc-hero__overlay"></div>
+    <div class="svc-hero__content">
+      <p class="svc-hero__crumbs" data-i18n="maint_page_name">HOME &rsaquo; SERVICES &rsaquo; OPERATION &amp; MAINTENANCE</p>
+      <h1 data-i18n="maint_header_title">Operation &amp; Maintenance</h1>
+      <p class="svc-hero__desc" data-i18n="maint_header_desc">Ongoing operation &amp; maintenance for oil &amp; gas, power stations, and other industries.</p>
+    </div>
+  </section>
 
   <section>
     <div class="container">
@@ -93,4 +84,4 @@
 
 </body>
 
-</html>
+</html> 

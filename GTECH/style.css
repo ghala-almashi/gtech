@@ -8,7 +8,7 @@
   --primary:      #257D2D;
   --primary-dark: #37684B;
   --primary-tint: #cfe1dc;
-  --accent-blue: #3D6E93;
+  --accent-blue: #37684B;
   --accent-blue-tint: #DCE7EE;
   --ink:          #17211C;
   --muted:        #5C6B62;
@@ -482,39 +482,47 @@ section[id]{
 .section-head__sub{ color:var(--muted); font-size:15.5px; }
 
 /* =========================================================
-   FEATURES
+   FEATURES (redesigned: icon + title + Learn More only)
    ========================================================= */
 .features{ padding-block:90px; }
 .fcard{
   background:#fff;
   border:1px solid var(--border);
   border-radius:16px;
-  padding:28px 26px;
-  position:relative;
-  overflow:hidden;
+  padding:32px 28px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:16px;
   transition:box-shadow .2s ease, transform .2s ease;
 }
 .fcard:hover{ box-shadow:0 20px 40px -24px rgba(15,107,66,0.28); transform:translateY(-3px); }
-.fcard h3{ font-size:17px; margin-bottom:10px; max-width:78%; color: var(--primary-dark);}
-.fcard p{ font-size:14px; color:var(--muted); max-width:75%; margin-bottom:70px; text-align: justify;}
 
 .fcard__blob{
-  position:absolute;
-  inset-inline-end:-16px;
-  bottom:-16px;
-  width:110px; height:110px;
-  border-radius:50%;
+  width:60px; height:60px;
+  border-radius:16px;
   background:var(--accent-blue-tint);
   display:flex; align-items:center; justify-content:center;
 }
-.fcard__blob i{ font-size:32px; color:var(--accent-blue); transform:translate(-5px,-5px); }
+.fcard__blob i{ font-size:24px; color:var(--accent-blue); }
 
-.fcard .card-link{
-  position:absolute;
-  inset:0;
-  z-index:2;
+.fcard h3{ font-size:17px; margin:0; color:var(--primary-dark); }
+
+.fcard__btn{
+  margin-top:auto;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-size:14px;
+  font-weight:600;
+  color:var(--primary-dark);
+  border:1px solid var(--primary);
+  border-radius:8px;
+  padding:10px 20px;
+  text-decoration:none;
+  transition:background .18s ease, color .18s ease;
 }
-
+.fcard__btn:hover{ background:var(--primary); color:#fff; }
 /* =========================================================
    why choose gtech?
    ========================================================= */
