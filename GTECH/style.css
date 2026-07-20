@@ -606,7 +606,25 @@ color:var(--accent-blue);
   padding:24px;
   box-shadow:0 16px 34px -22px rgba(15,107,66,0.28);
 }
-.client-card__box img{ max-height:76px; max-width:70%; object-fit:contain; }
+.client-card__box {
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.client-card__box img {
+    width: auto;
+    height: 70px;
+    max-width: 160px;
+    object-fit: contain;
+}
+
+
 /* =========================================================
    CTA
    ========================================================= */
