@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    id="bootstrapCss">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="aboutStyle.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="simple-header">
+  <div class="container simple-header__inner">
+    <a href="index.html" class="brand">
+      <img src="img/logo-g.png" alt="GTECH logo">
+    </a>
+
+    <div class="simple-header__right">
+      <a href="index.html" class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i>
+        <span data-i18n="back">رجوع</span>
+      </a>
+      <button id="langToggle" type="button" class="lang-toggle">E</button>
+    </div>
+  </div>
+</header>
+
+  <div class="page-banner">
+    <div class="crumbs" data-i18n="crumbs_about">الرئيسية &rsaquo; من نحن</div>
+
+    <div class="container">
+      <h1 data-i18n="about_head">About Us</h1>
+    </div>
+  </div>
+  <section style="background:#fff;" class="about-overview">
+    <div class="container">
+      <div class="about">
+        <div class="about-text">
+          <h2 data-i18n="About"> من نحن؟</h2>
+          <p data-i18n="about_desc"></p>
+          <p data-i18n="about_desc2"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="v-section">
+    <div class="container">
+      <div class="section-header" style="text-align: center;">
+        <h2 class="main-heading" data-i18n="vision_mission">Vision and Mission</h2>
+      </div>
+
+      <div class="vision-mission-card">
+        <div class="box">
+          <h2 style="color: var(--green-dark);">
+            <i class="far fa-eye"></i>
+            <span data-i18n="vision_title">Vision</span>
+
+          </h2>
+          <p data-i18n="vision_text">
+          </p>
+        </div>
+        <div class="divider"></div>
+        <div class="box">
+          <h2 style="color: var(--green-dark);">
+            <i class="fas fa-bullseye"></i>
+            <span data-i18n="mission_title">Mission</span>
+
+          </h2>
+          <p data-i18n="mission_text">
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section style="background:#fff;">
+    <div class="container">
+
+<h1 data-i18n="our_team" class="team-title" style="text-align: center;">Our Team</h1>
+
+      <div class="team-content">
+        <div class="team-image">
+          <img src="img\gtech-engineers.png" alt="Team Photo">
+        </div>
+        <div class="team-text" style="font-size: 20px;">
+          <p data-i18n="our_desc">
+          </p>
+        </div>
+      </div>
+      <div class="specialties-area" style="text-align: center;">
+        <h2 data-i18n="specialties">Technicians and engineers with different specialties:</h2>
+        <ul class="specialties-list">
+          <li><span class="dot"></span> <span data-i18n="specialties1_desc">Process Engineers</span></li>
+          <li><span class="dot"></span> <span data-i18n="specialties2_desc">Safety engineers &amp; technicians</span>
+          </li>
+          <li><span class="dot"></span> <span data-i18n="specialties3_desc">Instrument engineers &amp;
+              technicians</span></li>
+          <li><span class="dot"></span> <span data-i18n="specialties4_desc">Electrical engineers &amp;
+              technicians</span></li>
+          <li><span class="dot"></span> <span data-i18n="specialties5_desc">Mechanical engineers &amp;
+              technicians</span></li>
+          <li><span class="dot"></span> <span data-i18n="specialties6_desc">Planners</span></li>
+          <li><span class="dot"></span> <span data-i18n="specialties7_desc">Quality Assurance / Control</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <!-- تم تغيير text-center إلى text-start ليصبح كل شيء محاذياً للطرف بشكل مرتب تلقائياً حسب اللغة -->
+      <div class="row footer__grid g-4 text-start justify-content-between">
+
+        <div class="col-lg-4 col-md-6 footer__col footer__col--brand">
+          <a href="#top">
+            <img src="img/logo.png" id="logoImg" alt="G·Tech Automation Logo"
+              style="height: 50px; padding-bottom: 10px;">
+          </a>
+          <p><i class="fa-solid fa-location-dot"></i> <span data-i18n="footer_address">Jada 30, Makkah, Kingdom of Saudi
+              Arabia</span></p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:info@gtech-a.com">info@gtech-a.com</a></p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:technical@gtech-a.com">technical@gtech-a.com</a></p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:sales@gtech-a.com">sales@gtech-a.com</a></p>
+          <p><i class="fa-solid fa-phone"></i> <a href="tel:+966541719233"
+              style="direction: ltr !important; display: inline-block;">+966 54 171 9233</a></p>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer__col">
+          <h4 data-i18n="footer_quicklinks_title">Quick Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="#about" data-i18n="footer_about">About Us</a></li>
+            <li><a href="#services" data-i18n="footer_services">Services</a></li>
+            <li><a href="#sectors" data-i18n="footer_sectors">Sectors</a></li>
+            <li><a href="#contact" data-i18n="footer_contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer__col">
+          <h4 data-i18n="footer_services_title">Services</h4>
+          <ul class="list-unstyled">
+            <li><a href="#services" data-i18n="footer_serv1">Industrial Automation</a></li>
+            <li><a href="#services" data-i18n="footer_serv2">Control Panels</a></li>
+            <li><a href="#services" data-i18n="footer_serv3">Maintenance</a></li>
+            <li><a href="#services" data-i18n="footer_serv4">Smart Buildings</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer__col footer__social-block">
+          <h4 data-i18n="footer_social_title">Social Media</h4>
+          <!-- تم تغيير justify-content-center إلى d-flex لتبدأ الأيقونات من الطرف أيضاً -->
+          <div class="footer__social d-flex gap-2">
+            <a href="https://www.linkedin.com/in/g-tech-902535407" target="_blank" rel="noopener"
+              aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://x.com/GTechIndus" target="_blank" rel="noopener" aria-label="X"><i
+                class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61589156886063" target="_blank" rel="noopener"
+              aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container footer__bottom text-center">
+      <p>© <span id="year"></span> <span data-i18n="footer_copyright">G·Tech Automation. All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS bundle (includes Popper, powers the navbar collapse) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+  <script src="i18n.js"></script>
+</body>
+
+</html>

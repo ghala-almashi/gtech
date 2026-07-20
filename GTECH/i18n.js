@@ -18,6 +18,9 @@ const translations = {
     nav_contact: "Contact",
     nav_cta: "Request a Quote",
 
+    // ---- header(about) ----
+    back: "Back",
+
     // ---- hero (index.html) ----
     hero_eyebrow: "Industrial Automation & Instrumentation",
     hero_title: "Precision engineering,<br>built to run for decades.",
@@ -32,13 +35,21 @@ const translations = {
     stat_quality_label: "Quality managed",
 
     // ---- about-benefits ----
-    about_eyebrow: "About GTECH",
-    about_title: "<span>GTECH</span> is an independent instrumentation, process control, and industrial automation company.",
+    About: "About GTECH",
+    about_desc: "G-Tech is a premier, independent company specializing in instrumentation, process control, and industrial automation. With well-established experience and deep technical know-how, we deliver tailored solutions designed to complement, replace, or upgrade existing control systems supplied by major global providers.",
+    about_desc2: "We are committed to excellence in service, engineering, and manufacturing. Our business approach prioritizes fast, accurate responses to customer needs, ensuring that our clients receive the highest quality of support to optimize their operations and maintain peak efficiency.",
+    crumbs_about:"HOME &rsaquo; ABOUT US",
+    about_head:"About G-Tech Automation",
+
+
+    about_title: "<span>GTECH</span> is an independent instrumentation, process control, and industrial automation company",
     about_lede: "With years of expertise, we provide turnkey solutions, industrial instrumentation equipment supply and services, system upgrades, and innovative technologies for clients across KSA and beyond. Our solutions are designed to complement, replace, or upgrade existing control systems while delivering reliable engineering support.",
     benefit1_title: "Automation",
     benefit1_desc: "Providing cutting-edge automation and control solutions to enhance efficiency and optimize industrial operations.",
     benefit2_title: "Engineering",
     benefit2_desc: "Expertise in instrumentation and electrical engineering, delivering reliable solutions that meet global standards.",
+    alearn_more: "Learn more about us",
+
 
     // ---- Team ---- 
     our_team: "Our Team",
@@ -54,18 +65,14 @@ const translations = {
 
     // ---- Values ----
     first_value: "Less Time",
-    first_desc: "Providing fast and practical solutions to ensure timely project delivery.",
     second_value: "Less Cost",
-    second_desc: "Advanced technologies that reduce operational costs and boost production efficiency.",
     third_value: "More Efficiency",
-    third_desc: "Optimizing industrial systems' performance to increase precision and minimize waste.",
     Fourth_value: "High Quality",
-    Fourth_desc: "Global standards commitment to deliver solutions that exceed customer expectations.",
-
 
     // ---- vision & mission ----
+    vision_mission:"Vision and Mission",
     vision_title: "Our Vision",
-    vision_text: "To be a worldwide company which is seen by employees, customers, competitors, investors and suppliers as a model of exemplary performance of companies working in the field of engineering, construction, Commissioning and maintenance",
+    vision_text: "To be a worldwide company which is seen by employees, customers, competitors, investors and suppliers as a model of exemplary performance of companies working in the field of engineering, construction, Commissioning and maintenance.",
     mission_title: "Our Mission",
     mission_text: "To provide the best solutions to assure complete & safe engineering, construction, commissioning & maintenance for oil & gas and power stations projects and engineering for other industries for all customers all over the world in addition to provide technical & managerial training.",
 
@@ -265,15 +272,15 @@ const translations = {
     svc_em_footer_bottom: "© 2026 G-Tech Automation. All rights reserved.",
 
     //form
-    form_inquiry:"Send us your inquiry",
-    name:"Full Name",
-    email:"Email",
-    message:"Your Message",
-    send_message:"Send Message",
+    form_inquiry: "Send us your inquiry",
+    name: "Full Name",
+    email: "Email",
+    message: "Your Message",
+    send_message: "Send Message",
 
-  hero_btn_explore: "Explore Our Services",
-  hero_btn_talk: "Talk to Us",
-  footer_social_title: "Connect With Us",
+    hero_btn_explore: "Explore Our Services",
+    hero_btn_talk: "Talk to Us",
+    footer_social_title: "Connect With Us",
   },
 
 
@@ -291,6 +298,9 @@ const translations = {
     nav_contact: "تواصل معنا",
     nav_cta: "اطلب عرض سعر",
 
+    // ---- header(about) ----
+    back: "العودة",
+
     // ---- hero (index.html) ----
     hero_eyebrow: "الأتمتة الصناعية والقياس والتحكم",
     hero_title: "هندسة دقـيـقـــة،<br>مبنية لتدوم لعقود.",
@@ -305,13 +315,21 @@ const translations = {
     stat_quality_label: "إدارة جودة",
 
     // ---- about-benefits ----
-    about_eyebrow: "عن جي‑تك",
-    about_title: "<span>جي‑تك</span> شركة مستقلة متخصصة في القياس والتحكم في العمليات والأتمتة الصناعية.",
+    About: "عن جي‑تك",
+    about_desc: " تُعد G-Tech شركة مستقلة رائدة في مجالات الأجهزة الدقيقة، والتحكم في العمليات، والأتمتة الصناعية. نحن نمتلك خبرة راسخة ومعرفة فنية دقيقة تمكننا من تقديم حلول متكاملة تُستخدم لتكميل، استبدال، أو ترقية أنظمة التحكم الموردة من كبرى الشركات العالمية.",
+    about_desc2: "  نلتزم في G-Tech بتقديم استجابات سريعة ودقيقة لكافة طلبات عملائنا، مع التركيز على الجوانب الهندسية وخدمات التصنيع لضمان أعلى معايير الجودة والأداء.",
+    crumbs_about:"الرئيسية &rsaquo; من نحن",
+    about_head:"عن جي-تك",
+
+
+
+    about_title: "<span>جي‑تك</span> شركة مستقلة متخصصة في القياس والتحكم في العمليات والأتمتة الصناعية",
     about_lede: "بخبرة سنوات، نقدّم حلولاً متكاملة، وتوريد وخدمات معدات القياس الصناعي، وتحديثات للأنظمة، وتقنيات مبتكرة لعملائنا داخل المملكة وخارجها. حلولنا مصممة لتكميل أو استبدال أو تحديث أنظمة التحكم الحالية مع تقديم دعم هندسي موثوق.",
     benefit1_title: "الأتمتة",
     benefit1_desc: "نقدّم حلول أتمتة وتحكم متطورة لرفع الكفاءة وتحسين العمليات الصناعية.",
     benefit2_title: "الهندسة",
     benefit2_desc: "خبرة في هندسة القياس والكهرباء، بحلول موثوقة تلبي المعايير العالمية.",
+    alearn_more: "اعرف المزيد عنا",
 
     // ---- Team ---- 
     our_team: "فريقنا",
@@ -336,6 +354,7 @@ const translations = {
     Fourth_desc: "معايير عالمية نلتزم بها لتقديم حلول تتجاوز توقعات عملائنا.",
 
     // ---- vision & mission ----
+    vision_mission:"الرؤية و الرسالة",
     vision_title: "رؤيتنا",
     vision_text: "أن نكون شركة رائدة عالميًا، يُنظر إليها من قبل الموظفين والعملاء والمستثمرين والموردين والمنافسين كنموذج للتميز والاحترافية في مجالات الهندسة والإنشاءات والتشغيل التجريبي (Commissioning) والصيانة.",
     mission_title: "رسالتنا",
@@ -535,15 +554,15 @@ const translations = {
     svc_em_footer_technical_label: "المدير الفني: ",
     svc_em_footer_bottom: "© 2026 جي-تك أوتوميشن. جميع الحقوق محفوظة.",
 
-     //form
-    form_inquiry:"أرسل لنا استفسارك",
-    name1:"الأسم الكامل",
-    email:"البريد الإلكتروني",
-    message:"رسالتك",
-    send_message:"إرسال الرسالة",
-  hero_btn_explore: "اكتشف خدماتنا",
-  hero_btn_talk: "تحدث معنا",
-  footer_social_title: "تواصل معنا",
+    //form
+    form_inquiry: "أرسل لنا استفسارك",
+    name1: "الأسم الكامل",
+    email: "البريد الإلكتروني",
+    message: "رسالتك",
+    send_message: "إرسال الرسالة",
+    hero_btn_explore: "اكتشف خدماتنا",
+    hero_btn_talk: "تحدث معنا",
+    footer_social_title: "تواصل معنا",
   }
 };
 
