@@ -685,6 +685,12 @@ section[id]{
 .cta h2{ color:#fff; font-size:clamp(24px,2.8vw,32px); margin-bottom:8px; }
 .cta p{ color:#CFE3D6; font-size:15.5px; max-width:46ch; }
 
+/* Dark blue variant, used for the FAQ section on contact.html */
+.cta.faq-dark{ background:#0E2A47; }
+.faq-dark .faq-q i{ color:#9FC1E8; }
+.faq-dark .faq-a > p{ color:#C7D6E8; }
+.faq-dark .eyebrow{ color:#9FC1E8; }
+
 /* =========================================================
    FORM
    ========================================================= */
@@ -797,6 +803,15 @@ html[lang="ar"] .nav .nav-link{
 /* icons that imply direction should mirror in RTL */
 html[dir="rtl"] .fa-arrow-right{ transform:scaleX(-1); }
 
+/* browsers force LTR on email/tel/url inputs by default (even in RTL pages) —
+   override so these fields align right, like every other field, in Arabic */
+html[dir="rtl"] input[type="email"],
+html[dir="rtl"] input[type="tel"],
+html[dir="rtl"] input[type="url"]{
+  direction: rtl;
+  text-align: right;
+}
+
 .lang-toggle{
   width:38px;
   height:38px;
@@ -819,6 +834,55 @@ html[dir="rtl"] .fa-arrow-right{ transform:scaleX(-1); }
 
 .site-header .lang-toggle{ background:rgba(255,255,255,0.16); border-color:rgba(255,255,255,0.5); }
 .site-header.is-scrolled .lang-toggle{ background:var(--primary); border-color:transparent; }
+
+/* =========================================================
+   SUBPAGE HEADER — for pages with no hero video behind the nav
+   (add class="subpage" to <body>, e.g. contact.html)
+   ========================================================= */
+body.subpage .site-header{
+  background:var(--bg);
+  border-bottom-color:var(--border);
+  box-shadow:0 8px 24px -18px rgba(15,107,66,0.35);
+}
+body.subpage .site-header .nav .nav-link{ color:var(--muted); }
+body.subpage .site-header .nav .nav-link:hover,
+body.subpage .site-header .nav .nav-link.active{ color:var(--ink); border-color:var(--primary); }
+body.subpage .site-header .navbar-toggler-icon{ filter:none; }
+body.subpage .site-header .lang-toggle{ background:var(--primary); border-color:transparent; }
+
+/* push page content clear of the fixed topbar + header */
+body.subpage main{ padding-top:128px; }
+@media (max-width:575.98px){
+  body.subpage main{ padding-top:158px; }
+}
+
+/* Optional modifier for subpages with no info topbar above the nav
+   (add class="no-topbar" alongside "subpage" on <body>) */
+body.subpage.no-topbar .site-header{ top:0; }
+body.subpage.no-topbar main{ padding-top:88px; }
+
+/* Breadcrumb + title band used at the top of subpages */
+.page-banner{
+  background:var(--primary-dark);
+  padding-block:46px 42px;
+  text-align:center;
+}
+.page-banner .crumbs{
+  display:block;
+  color:#CFE3D6;
+  font-size:13px;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+.page-banner h1{
+  color:#fff;
+  font-size:clamp(26px,3.4vw,36px);
+}
+
+/* Contact info strip — re-uses the existing value-card / icon-circle look */
+.contact-info{ padding-block:70px 10px; background:var(--bg-soft); }
+.contact-info .value-section{ background:var(--bg); border-radius:16px; box-shadow:0 8px 24px -18px rgba(15,107,66,0.18); }
 
 /* =========================================================
    FAQ (embedded inside the CTA / contact section)
