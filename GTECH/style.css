@@ -58,6 +58,12 @@ section[id]{
   scroll-margin-top: 100px;
 }
 
+@media (max-width:575.98px){
+  section[id]{
+    scroll-margin-top: 70px;
+  }
+}
+
 /* ---------- shared labels ---------- */
 .eyebrow{
   font-size:23px;
@@ -128,6 +134,15 @@ section[id]{
 .site-header.is-scrolled .navbar-toggler-icon{ filter:none; }
 .site-header.is-scrolled .btn--nav.btn--primary{ background:var(--primary); border-color:transparent; color:#fff; }
 .site-header.is-scrolled .btn--nav.btn--primary:hover{ background:var(--primary-dark); }
+@media (max-width:575.98px){
+  .topbar{
+    position:static;
+  }
+  .site-header{
+    position:sticky;
+    top:0;
+  }
+}
 
 @media (max-width:991.98px){
   .navbar-collapse.show{
@@ -853,7 +868,7 @@ body.subpage .site-header .lang-toggle{ background:var(--primary); border-color:
 /* push page content clear of the fixed topbar + header */
 body.subpage main{ padding-top:128px; }
 @media (max-width:575.98px){
-  body.subpage main{ padding-top:158px; }
+  body.subpage main{ padding-top:70px; }
 }
 
 /* Optional modifier for subpages with no info topbar above the nav
@@ -1008,7 +1023,7 @@ body.subpage.no-topbar main{ padding-top:88px; }
   .hero {
     height: auto;
     min-height: 100vh;
-    padding-block: 140px 60px;
+    padding-block: 70px 60px;
     display: flex;
     align-items: center;
   }
@@ -1321,7 +1336,7 @@ html[dir="rtl"] .hero-video-overlay {
   .hero-video-section {
     height: auto;
     min-height: 100vh;
-    padding: 120px 0 60px 0;
+    padding: 70px 0 60px 0;
   }
   .hero-video-title {
     font-size: 28px;

@@ -16,6 +16,7 @@
   --line: var(--border);
   --amber: #B9862F;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -39,7 +40,7 @@ h2 {
 }
 
 /* =========================================================
-   PAGE BANNER — blueprint grid backdrop
+   PAGE BANNER 
    ========================================================= */
 .page-banner {
   position: relative;
@@ -103,12 +104,12 @@ h2 {
   gap:14px;
 }
 
-
 .simple-header .container{
   padding-inline:32px;}
 
 .simple-header .brand img {
-  height: 56px;
+  height: 56px !important;
+    width: auto;
   display: block;
 }
 
@@ -133,6 +134,43 @@ h2 {
 
 .back-btn i {
   font-size: 14px;
+}
+header.simple-header .simple-header__inner .brand img {
+  height: 56px !important;
+  width: auto !important;
+  max-width: none !important;
+  display: block !important;
+}
+
+@media (max-width:575.98px){
+  .simple-header .container{
+    padding-inline:16px;
+  }
+
+  .simple-header__inner{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+  }
+
+  .simple-header .brand img{
+    height:44px;
+  }
+
+  .simple-header__right{
+    gap:8px;
+  }
+
+  .back-btn{
+    font-size:13px;
+    padding:7px 14px;
+  }
+
+  .lang-toggle{
+    width:32px;
+    height:32px;
+    font-size:13px;
+  }
 }
 
 /* =========================================================
