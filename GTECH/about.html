@@ -29,23 +29,35 @@
 
 </head>
 
-<body>
+<body class="subpage no-topbar">
 
-<header class="simple-header">
-  <div class="container simple-header__inner">
-    <a href="index.html" class="brand">
-      <img src="img/logo-g.png" alt="GTECH logo">
-    </a>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a href="index.html" class="navbar-brand logo">
+          <img src="img/logo-g.png" id="logoImg" alt="G·Tech Automation Logo" style="height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNav"
+          aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="siteNav">
+          <ul class="navbar-nav mx-auto nav">
+            <li class="nav-item"><a class="nav-link" href="index.html#top" data-i18n="nav_home">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="index.html#about" data-i18n="nav_about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#services" data-i18n="nav_services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#sectors" data-i18n="nav_sectors">Sectors</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#clients" data-i18n="nav_projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html" data-i18n="nav_contact">Contact</a></li>
+          </ul>
+          <button id="langToggle" type="button" class="lang-toggle" aria-label="Switch language">ع</button>
 
-    <div class="simple-header__right">
-      <a href="index.html" class="back-btn">
-        <i class="fa-solid fa-arrow-left"></i>
-        <span data-i18n="back">رجوع</span>
-      </a>
-      <button id="langToggle" type="button" class="lang-toggle">E</button>
-    </div>
-  </div>
-</header>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <main id="top">
 
   <div class="page-banner">
     <div class="crumbs" data-i18n="crumbs_about">الرئيسية &rsaquo; من نحن</div>
