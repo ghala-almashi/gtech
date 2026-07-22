@@ -846,6 +846,7 @@ html[dir="rtl"] input[type="url"]{
 }
 .lang-toggle:hover{ background:var(--primary-dark); transform:translateY(-1px); }
 
+
 .site-header .lang-toggle{ background:rgba(255,255,255,0.16); border-color:rgba(255,255,255,0.5); }
 .site-header.is-scrolled .lang-toggle{ background:var(--primary); border-color:transparent; }
 
