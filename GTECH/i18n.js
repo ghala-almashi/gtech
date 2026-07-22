@@ -23,8 +23,8 @@ const translations = {
 
     // ---- hero (index.html) ----
     hero_eyebrow: "Industrial Automation & Instrumentation",
-    hero_title: "Precision engineering,<br>built to run for decades.",
-    hero_lede: "G-Tech is an independent company with well-established experience and know-how in industrial automation and instrumentation",
+    hero_title: "Smart Automation,<br>built to run for decades.",
+    hero_lede: "G-Tech is a Saudi company with well-established experience and know-how in industrial automation and instrumentation",
     hero_btn_quote: "Request a Quote",
     hero_btn_services: "Our Services",
 
@@ -36,13 +36,13 @@ const translations = {
 
     // ---- about-benefits ----
     About: "About GTECH",
-    about_desc: "G-Tech is a premier, independent company specializing in instrumentation, process control, and industrial automation. With well-established experience and deep technical know-how, we deliver tailored solutions designed to complement, replace, or upgrade existing control systems supplied by major global providers.",
+    about_desc: "G-Tech is a Saudi company specializing in instrumentation, process control, and industrial automation. With well-established experience and deep technical know-how, we deliver tailored solutions designed to complement, replace, or upgrade existing control systems supplied by major global providers.",
     about_desc2: "We are committed to excellence in service, engineering, and manufacturing. Our business approach prioritizes fast, accurate responses to customer needs, ensuring that our clients receive the highest quality of support to optimize their operations and maintain peak efficiency.",
     crumbs_about:"HOME &rsaquo; ABOUT US",
     about_head:"About G-Tech Automation",
 
 
-    about_title: "<span>GTECH</span> is an independent instrumentation, process control, and industrial automation company",
+    about_title: "<span>GTECH</span> is an Saudi instrumentation, process control, and industrial automation company",
     about_lede: "With years of expertise, we provide turnkey solutions, industrial instrumentation equipment supply and services, system upgrades, and innovative technologies for clients across KSA and beyond. Our solutions are designed to complement, replace, or upgrade existing control systems while delivering reliable engineering support.",
     benefit1_title: "Automation",
     benefit1_desc: "Providing cutting-edge automation and control solutions to enhance efficiency and optimize industrial operations.",
@@ -130,7 +130,7 @@ const translations = {
 
     // ---- clients ----
     clients_eyebrow: "CLIENTS",
-    clients_title: "Trusted by operators across the Kingdom",
+    clients_title: "Proud of the trust our partners place in us across the Kingdom",
 
     // ---- cta ----
     cta_title: "Have a project in mind?",
@@ -316,8 +316,8 @@ const translations = {
 
     // ---- hero (index.html) ----
     hero_eyebrow: "الأتمتة الصناعية والقياس والتحكم",
-    hero_title: "هندسة دقـيـقـــة،<br>مبنية لتدوم لعقود.",
-    hero_lede: "جي‑تك شركة مستقلة تمتلك خبرة راسخة ومعرفة عميقة في مجال الأتمتة الصناعية والقياس والتحكم.",
+    hero_title: "تحكم الي ذكي<br>مبني ليدوم لعقود.",
+    hero_lede: "جي‑تك شركة سعودية تمتلك خبرة راسخة ومعرفة عميقة في مجال التحكم الالي والقياس ",
     hero_btn_quote: "اطلب عرض سعر",
     hero_btn_services: "خدماتنا",
 
@@ -329,14 +329,14 @@ const translations = {
 
     // ---- about-benefits ----
     About: "عن جي‑تك",
-    about_desc: " تُعد G-Tech شركة مستقلة رائدة في مجالات الأجهزة الدقيقة، والتحكم في العمليات، والأتمتة الصناعية. نحن نمتلك خبرة راسخة ومعرفة فنية دقيقة تمكننا من تقديم حلول متكاملة تُستخدم لتكميل، استبدال، أو ترقية أنظمة التحكم الموردة من كبرى الشركات العالمية.",
+    about_desc: " تُعد G-Tech شركة سعودية رائدة في مجالات الأجهزة الدقيقة، والتحكم في العمليات، والأتمتة الصناعية. نحن نمتلك خبرة راسخة ومعرفة فنية دقيقة تمكننا من تقديم حلول متكاملة تُستخدم لتكميل، استبدال، أو ترقية أنظمة التحكم الموردة من كبرى الشركات العالمية.",
     about_desc2: "  نلتزم في G-Tech بتقديم استجابات سريعة ودقيقة لكافة طلبات عملائنا، مع التركيز على الجوانب الهندسية وخدمات التصنيع لضمان أعلى معايير الجودة والأداء.",
     crumbs_about:"الرئيسية &rsaquo; من نحن",
     about_head:"عن جي-تك",
 
 
 
-    about_title: "<span>جي‑تك</span> شركة مستقلة متخصصة في القياس والتحكم في العمليات والأتمتة الصناعية",
+    about_title: "<span>جي‑تك</span> شركة سعودية متخصصة في القياس والتحكم في العمليات والأتمتة الصناعية",
     about_lede: "بخبرة سنوات، نقدّم حلولاً متكاملة، وتوريد وخدمات معدات القياس الصناعي، وتحديثات للأنظمة، وتقنيات مبتكرة لعملائنا داخل المملكة وخارجها. حلولنا مصممة لتكميل أو استبدال أو تحديث أنظمة التحكم الحالية مع تقديم دعم هندسي موثوق.",
     benefit1_title: "الأتمتة",
     benefit1_desc: "نقدّم حلول أتمتة وتحكم متطورة لرفع الكفاءة وتحسين العمليات الصناعية.",
@@ -426,7 +426,7 @@ const translations = {
 
     // ---- clients ----
     clients_eyebrow: "عملاؤنا",
-    clients_title: "موثوقون من قبل الجهات التشغيلية في المملكة",
+    clients_title: "نعتز بثقة شركاؤنا في انحاءالمملكة",
 
     // ---- cta ----
     cta_title: "عندك مشروع في بالك؟",
