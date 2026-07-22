@@ -628,7 +628,7 @@ function applyLanguage(lang) {
   const toggleBtn = document.getElementById("langToggle");
   if (toggleBtn) {
     const showingArabicLetter = lang !== "ar";
-    toggleBtn.textContent = showingArabicLetter ? "ع" : "A";
+    toggleBtn.textContent = showingArabicLetter ? "Ar" : "En";
     toggleBtn.classList.toggle("is-ain", showingArabicLetter);
   }
 

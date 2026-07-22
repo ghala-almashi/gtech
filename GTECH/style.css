@@ -845,7 +845,6 @@ html[dir="rtl"] input[type="url"]{
   transition:background .18s ease, transform .18s ease;
 }
 .lang-toggle:hover{ background:var(--primary-dark); transform:translateY(-1px); }
-.lang-toggle.is-ain{ padding-bottom:7px; }
 
 .site-header .lang-toggle{ background:rgba(255,255,255,0.16); border-color:rgba(255,255,255,0.5); }
 .site-header.is-scrolled .lang-toggle{ background:var(--primary); border-color:transparent; }
