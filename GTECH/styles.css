@@ -1,6 +1,5 @@
-
 /* CSS Styles for G-TECH Automation Services Page matching the design exactly */
- 
+
 :root {
   --primary:      #427466;
   --primary-dark: #285548;
@@ -17,7 +16,6 @@
   /* ---- type tokens ---- */
   --font-display: 'Source Serif 4', Georgia, serif;
   --font-body:    'Inter', sans-serif;
- 
   --radius: 10px;
 }
  
@@ -36,13 +34,61 @@ body {
  
 /* Header Styles */
 .site-header {
-    background-color: var(--white);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    position: sticky;
+    background-color: var(--white) !important;
+    position: sticky !important;
     top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important;
 }
- 
+
+.svc-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.svc-topbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.svc-topbar__logo img {
+    height: 40px;
+}
+
+.svc-topbar__logo .logo-company-name {
+    color: #17211C !important; 
+}
+
+.svc-topbar__back {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 14.5px;
+    color: var(--primary-dark) !important;
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background .18s ease, color .18s ease;
+    background: transparent;
+}
+
+.svc-topbar__back:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #fff !important;
+}
+
 .header-inner {
     max-width: 1200px;
     margin: 0 auto;
@@ -285,33 +331,6 @@ h2 {
 body[dir="rtl"] .grid {
     flex-direction: row-reverse;
 }
- 
-/* =========================================================
-   SERVICE PAGES — Simple Top Bar (logo + back button only)
-   ========================================================= */
-.svc-topbar{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  max-width:1200px;
-  margin:0 auto;
-  padding:18px 20px;
-}
-.svc-topbar__logo img{ height:44px; }
-.svc-topbar__back{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  font-weight:600;
-  font-size:14.5px;
-  color:var(--primary-dark);
-  border:1px solid var(--primary);
-  border-radius:8px;
-  padding:9px 18px;
-  text-decoration:none;
-  transition:background .18s ease, color .18s ease;
-}
-.svc-topbar__back:hover{ background:var(--primary); color:#fff; }
  
 /* =========================================================
    SERVICE PAGES — Hero with background image
