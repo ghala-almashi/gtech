@@ -280,6 +280,13 @@ section[id]{
 }
 .about-benefits__title span{ color:var(--primary-dark); }
 .about-benefits__lede{ color:var(--muted); font-size:15.5px; margin-bottom:32px; max-width:56ch; text-align:justify}
+.about-benefits__tagline{
+  font-size:17px;
+  font-weight:600;
+  color:var(--primary-dark);
+  margin-bottom:24px;
+  max-width:56ch;
+}
 .about-benefits .row{
   align-items:center; 
 }
@@ -300,7 +307,8 @@ section[id]{
   aspect-ratio:4/5;
 }
 .about-benefits__title,
-.about-benefits__lede{
+.about-benefits__lede,
+.about-benefits__tagline{
   text-align:center;
 }
 .about-benefits__cta{
@@ -427,24 +435,25 @@ section[id]{
    Values
    ========================================================= */
 .value-section {
+  padding-block: 90px;
+  background-color: #F4F8F4;
+}
+.value-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  padding: 50px;
-  background-color: #F4F8F4;
 }
 
 @media (max-width:991.98px){
-  .value-section{
+  .value-grid{
     grid-template-columns: repeat(2, 1fr);
-    padding: 36px 24px;
   }
 }
 
 @media (max-width:575.98px){
-  .value-section{
+  .value-section{ padding-block:56px; }
+  .value-grid{
     grid-template-columns: 1fr;
-    padding: 28px 18px;
     gap: 14px;
   }
 }
@@ -659,7 +668,8 @@ section[id]{
    CLIENTS
    ========================================================= */
 .clients{ padding-block:90px; background:var(--bg-soft); }
-.clients__title{ font-size:clamp(22px,2.6vw,28px); max-width:600px; margin:0 auto 50px; color:var(--ink); }
+.clients__title{ font-size:clamp(22px,2.6vw,28px); max-width:600px; margin:0 auto 16px; color:var(--ink); }
+.clients__lede{ color:var(--muted); font-size:15.5px; max-width:620px; margin:0 auto 44px; line-height:1.7; }
 .clients__row{ max-width:1040px; margin-inline:auto; }
 
 .client-card{ position:relative; padding:10px; }

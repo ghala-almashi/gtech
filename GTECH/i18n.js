@@ -44,8 +44,9 @@ const translations = {
     about_head:"About G-Tech Automation",
 
 
-    about_title: "<span>GTECH</span> is an Saudi instrumentation, process control, and industrial automation company",
+    about_title: "<span>GTECH</span> is a Saudi instrumentation, process control, and industrial automation company",
     about_lede: "With years of expertise, we provide turnkey solutions, industrial instrumentation equipment supply and services, system upgrades, and innovative technologies for clients across KSA and beyond. Our solutions are designed to complement, replace, or upgrade existing control systems while delivering reliable engineering support.",
+    about_tagline: "Delivering dependable automation solutions across the Kingdom and beyond.",
     benefit1_title: "Automation",
     benefit1_desc: "Providing cutting-edge automation and control solutions to enhance efficiency and optimize industrial operations.",
     benefit2_title: "Engineering",
@@ -66,6 +67,9 @@ const translations = {
     specialties7_desc: "Quality Assurance / Control",
 
     // ---- Values ----
+    values_eyebrow: "Our Values",
+    values_title: "Why Clients Choose GTECH?",
+    values_sub: "Four commitments that guide every project we deliver.",
     first_value: "Less Time",
     second_value: "Less Cost",
     third_value: "More Efficiency",
@@ -133,6 +137,7 @@ const translations = {
     // ---- clients ----
     clients_eyebrow: "CLIENTS",
     clients_title: "Proudly Trusted by Our Partners Across the Kingdom",
+    clients_tagline: "Strong partnerships and trusted client relationships — the foundation of everything we deliver.",
 
     // ---- strategic partners ----
     partner1_name: "Schneider Electric",
@@ -352,6 +357,7 @@ const translations = {
 
     about_title: "<span>جي‑تك</span> شركة سعودية متخصصة في القياس والتحكم في العمليات والأتمتة الصناعية",
     about_lede: "بخبرة سنوات، نقدّم حلولاً متكاملة، وتوريد وخدمات معدات القياس الصناعي، وتحديثات للأنظمة، وتقنيات مبتكرة لعملائنا داخل المملكة وخارجها. حلولنا مصممة لتكميل أو استبدال أو تحديث أنظمة التحكم الحالية مع تقديم دعم هندسي موثوق.",
+    about_tagline: "نقدّم حلول أتمتة يُعتمد عليها في أنحاء المملكة وخارجها.",
     benefit1_title: "الأتمتة",
     benefit1_desc: "نقدّم حلول أتمتة وتحكم متطورة لرفع الكفاءة وتحسين العمليات الصناعية.",
     benefit2_title: "الهندسة",
@@ -371,6 +377,9 @@ const translations = {
     specialties7_desc: "ضمان / مراقبة الجودة",
 
     // ---- Values ----
+    values_eyebrow: "قيمنا",
+    values_title: "لماذا يختار عملاؤنا جي‑تك؟",
+    values_sub: "أربعة التزامات توجّه كل مشروع ننفذه.",
     first_value: "وقت أقل",
     first_desc: "حلول سريعة وعملية تضمن إنجاز مشاريعكم في أقل وقت ممكن.",
     second_value: "تكلفة أقل",
@@ -441,6 +450,7 @@ const translations = {
     // ---- clients ----
     clients_eyebrow: "عملاؤنا",
     clients_title: "نفخر بثقة شركائنا في مختلف أنحاء المملكة",
+    clients_tagline: "شراكات قوية وعلاقات موثوقة مع عملائنا — الأساس الذي نبني عليه كل ما نقدّمه.",
 
     // ---- strategic partners ----
     partner1_name: "Schneider Electric",
