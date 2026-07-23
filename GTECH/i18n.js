@@ -137,9 +137,9 @@ const translations = {
     clients_tagline: "Strong partnerships and trusted client relationships — the foundation of everything we deliver.",
 
     // ---- strategic partners ----
-    partner1_name: "Schneider Electric",
-    partner1_role1: "Industrial Services Partner",
-    partner1_role2: "Certified partner for control systems and electrical power",
+    partner1_name: "Cooling & BMS Systems Partner",
+    partner1_role1: "Cooling & BMS Systems Partner",
+    partner1_role2: "Specialized expertise in delivering cooling systems and Building Management Systems (BMS), backed by rigorous quality and operational standards.",
     partner2_name: "NTEGRIA",
     partner2_role1: "Quality & Management Consulting Partner",
     partner2_role2: "Strategic partnership blending technical innovation with world-class quality and management standards",
@@ -447,9 +447,9 @@ const translations = {
     clients_tagline: "شراكات قوية وعلاقات موثوقة مع عملائنا — الأساس الذي نبني عليه كل ما نقدّمه.",
 
     // ---- strategic partners ----
-    partner1_name: "Schneider Electric",
-    partner1_role1: "شريك خدمات صناعية",
-    partner1_role2: "شريك معتمد لأنظمة التحكم والطاقة الكهربائية",
+    partner1_name: "شريك أنظمة التبريد و BMS",
+    partner1_role1: "شريك أنظمة التبريد و BMS",
+    partner1_role2: "خبرة متخصصة في تنفيذ أنظمة التبريد وإدارة المباني (BMS)، مدعومة بمعايير جودة وكفاءة تشغيلية عالية.",
     partner2_name: "NTEGRIA",
     partner2_role1: "شريك في الاستشارات الإدارية وأنظمة الجودة",
     partner2_role2: "شراكة استراتيجية تجمع بين الابتكار التقني وأعلى معايير الجودة والإدارة",
