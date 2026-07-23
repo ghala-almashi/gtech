@@ -725,6 +725,14 @@ section[id]{
   color:var(--accent-blue);
   margin-bottom:10px;
 }
+.partner-card__logo{
+  display:block;
+  height:36px;
+  width:auto;
+  max-width:140px;
+  object-fit:contain;
+  margin-bottom:14px;
+}
 .partner-card__role{ font-size:19px; font-weight:700; color:var(--ink); margin-bottom:8px; }
 .partner-card__desc{ font-size:14.5px; color:var(--muted); line-height:1.6; }
 
@@ -1257,7 +1265,10 @@ html[dir="rtl"] .slide-track {
   display: flex;
   align-items: center;
   overflow: hidden;
-  background-color: #050d0a; /* لون احتياطي داكن جداً متناسق مع الفيديو */
+  background-color: #050d0a;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* لون احتياطي داكن جداً متناسق مع الفيديو */
 }
 
 /* تمديد وتوسيط الفيديو ليمر خلف كامل الشاشة */
@@ -1278,7 +1289,7 @@ html[dir="rtl"] .slide-track {
 .hero-video-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(5, 13, 10, 0.85) 0%, rgba(0, 0, 0, 0.4) 100%);
+  background: linear-gradient(90deg, rgba(5, 13, 10, 0.82) 0%, rgba(5, 13, 10, 0.62) 100%);
   z-index: 2;
 }
 
