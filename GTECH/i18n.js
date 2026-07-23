@@ -130,7 +130,7 @@ const translations = {
 
     // ---- clients ----
     clients_eyebrow: "CLIENTS",
-    clients_title: "Proud of the trust our partners place in us across the Kingdom",
+    clients_title: "Proudly Trusted by Our Partners Across the Kingdom",
 
     // ---- cta ----
     cta_title: "Have a project in mind?",
@@ -426,7 +426,7 @@ const translations = {
 
     // ---- clients ----
     clients_eyebrow: "عملاؤنا",
-    clients_title: "نعتز بثقة شركاؤنا في انحاءالمملكة",
+    clients_title: "نفخر بثقة شركائنا في مختلف أنحاء المملكة",
 
     // ---- cta ----
     cta_title: "عندك مشروع في بالك؟",
