@@ -21,6 +21,7 @@
   --font-body:    'Inter', sans-serif;
 
   --radius: 10px;
+ --topbar-h: 42px; 
 }
 
 body{
@@ -83,7 +84,7 @@ section[id]{
   background:var(--primary-dark);
   color:#CFE3D6;
   font-size:13px;
-  position:fixed; top:0; left:0; right:0; z-index:1040; --topbar-h:42px; }
+  position:fixed; top:0; left:0; right:0; z-index:1040; }
 .topbar__row{
   min-height:var(--topbar-h);
   display:flex;

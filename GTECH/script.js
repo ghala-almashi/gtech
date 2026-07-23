@@ -6,6 +6,16 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   // Footer year
+  // اجعل التوبار والهيدر يتزامنون تلقائيًا مهما كان ارتفاع التوبار (حتى لو صار سطرين)
+const topbarEl = document.querySelector('.topbar');
+const syncTopbarHeight = () => {
+  if (topbarEl) {
+    document.documentElement.style.setProperty('--topbar-h', topbarEl.offsetHeight + 'px');
+  }
+};
+syncTopbarHeight();
+window.addEventListener('resize', syncTopbarHeight);
+window.addEventListener('load', syncTopbarHeight);
   const yearEl = document.getElementById('year');
   if (yearEl) {
     yearEl.textContent = new Date().getFullYear();
