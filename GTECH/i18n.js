@@ -67,9 +67,6 @@ const translations = {
     specialties7_desc: "Quality Assurance / Control",
 
     // ---- Values ----
-    values_eyebrow: "Our Values",
-    values_title: "Why Clients Choose GTECH?",
-    values_sub: "Four commitments that guide every project we deliver.",
     first_value: "Less Time",
     second_value: "Less Cost",
     third_value: "More Efficiency",
@@ -377,9 +374,6 @@ const translations = {
     specialties7_desc: "ضمان / مراقبة الجودة",
 
     // ---- Values ----
-    values_eyebrow: "قيمنا",
-    values_title: "لماذا يختار عملاؤنا جي‑تك؟",
-    values_sub: "أربعة التزامات توجّه كل مشروع ننفذه.",
     first_value: "وقت أقل",
     first_desc: "حلول سريعة وعملية تضمن إنجاز مشاريعكم في أقل وقت ممكن.",
     second_value: "تكلفة أقل",
