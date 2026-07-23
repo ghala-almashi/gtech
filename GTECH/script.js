@@ -31,7 +31,7 @@ const onScroll = () => {
     }
     const isSubpage = document.body.classList.contains('subpage');
     const isMobile = window.innerWidth <= 575.98; // ← جديد
-    document.getElementById('logoImg').src = (isSubpage || isMobile || window.scrollY > 8) ? 'img/logo-g.png' : 'img/logo.png';
+    document.getElementById('logoImg').src = (isSubpage || isMobile || window.scrollY > 8) ? 'img/logo-g.png' : 'img/logo-g.png';
   };
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
