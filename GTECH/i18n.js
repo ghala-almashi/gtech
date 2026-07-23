@@ -134,6 +134,14 @@ const translations = {
     clients_eyebrow: "CLIENTS",
     clients_title: "Proudly Trusted by Our Partners Across the Kingdom",
 
+    // ---- strategic partners ----
+    partner1_name: "Schneider Electric",
+    partner1_role1: "Industrial Services Partner",
+    partner1_role2: "Certified partner for control systems and electrical power",
+    partner2_name: "NTEGRIA",
+    partner2_role1: "Quality & Management Consulting Partner",
+    partner2_role2: "Strategic partnership blending technical innovation with world-class quality and management standards",
+
     // ---- cta ----
     cta_title: "Have a project in mind?",
     cta_text: "Tell us about your facility and we'll put together a proposal within two business days.",
@@ -229,6 +237,7 @@ const translations = {
     footer_email_placeholder: "Your email address",
     footer_join_btn: "Join",
     footer_copyright: "G·Tech Automation. All rights reserved.",
+    footer_group: "Green Lights General Contracting Company",
     footer_address: "Jada 30, Saudi Arabia",
 
     // ---- project.html hero ----
@@ -433,6 +442,14 @@ const translations = {
     clients_eyebrow: "عملاؤنا",
     clients_title: "نفخر بثقة شركائنا في مختلف أنحاء المملكة",
 
+    // ---- strategic partners ----
+    partner1_name: "Schneider Electric",
+    partner1_role1: "شريك خدمات صناعية",
+    partner1_role2: "شريك معتمد لأنظمة التحكم والطاقة الكهربائية",
+    partner2_name: "NTEGRIA",
+    partner2_role1: "شريك في الاستشارات الإدارية وأنظمة الجودة",
+    partner2_role2: "شراكة استراتيجية تجمع بين الابتكار التقني وأعلى معايير الجودة والإدارة",
+
     // ---- cta ----
     cta_title: "عندك مشروع في بالك؟",
     cta_text: "أخبرنا عن منشأتك وسنجهّز لك عرضاً خلال يومي عمل.",
@@ -528,6 +545,7 @@ const translations = {
     footer_email_placeholder: "بريدك الإلكتروني",
     footer_join_btn: "اشترك",
     footer_copyright: "جي‑تك للأتمتة. جميع الحقوق محفوظة.",
+    footer_group: "شركة الأنوار الخضراء للمقاولات العامة",
     footer_address: "جادة 30، المملكة العربية السعودية",
 
     // ---- project.html hero ----

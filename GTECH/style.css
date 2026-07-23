@@ -704,6 +704,30 @@ section[id]{
     object-fit: contain;
 }
 
+/* ---- strategic partner highlight boxes ---- */
+.partner-highlights{ max-width:1100px; margin:0 auto 50px; }
+.partner-card{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:28px 32px;
+  height:100%;
+  text-align:start;
+  transition:box-shadow .2s ease, transform .2s ease;
+}
+.partner-card:hover{ box-shadow:0 16px 34px -24px rgba(15,107,66,0.28); transform:translateY(-2px); }
+.partner-card__eyebrow{
+  font-family:'Courier New', monospace;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  font-size:12.5px;
+  font-weight:700;
+  color:var(--accent-blue);
+  margin-bottom:10px;
+}
+.partner-card__role{ font-size:19px; font-weight:700; color:var(--ink); margin-bottom:8px; }
+.partner-card__desc{ font-size:14.5px; color:var(--muted); line-height:1.6; }
+
 
 /* =========================================================
    CTA
@@ -798,6 +822,11 @@ section[id]{
 .subscribe button:hover{ background:#12855A; }
 
 .footer__bottom{ padding-block:20px; font-size:13px; color:#7E9A8C; text-align:center; }
+.footer__group{ color:#9FB5A9; }
+.footer__group-sep{ opacity:.6; margin-inline:2px; }
+@media (max-width:575.98px){
+  .footer__group-sep{ display:block; height:4px; opacity:0; }
+}
 
 /* =========================================================
    RESPONSIVE TWEAKS (beyond Bootstrap's own grid behavior)
