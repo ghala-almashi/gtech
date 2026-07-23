@@ -6,7 +6,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   // Footer year
-  // اجعل التوبار والهيدر يتزامنون تلقائيًا مهما كان ارتفاع التوبار (حتى لو صار سطرين)
+    // اجعل التوبار والهيدر يتزامنون تلقائيًا مهما كان ارتفاع التوبار (حتى لو صار سطرين)
 const topbarEl = document.querySelector('.topbar');
 const syncTopbarHeight = () => {
   if (topbarEl) {
@@ -23,14 +23,15 @@ window.addEventListener('load', syncTopbarHeight);
 
   // Add a subtle shadow to the header once the page is scrolled
   const header = document.querySelector('.site-header');
-  const onScroll = () => {
+const onScroll = () => {
     if (window.scrollY > 8) {
       header.classList.add('is-scrolled');
     } else {
       header.classList.remove('is-scrolled');
     }
     const isSubpage = document.body.classList.contains('subpage');
-    document.getElementById('logoImg').src = (isSubpage || window.scrollY > 8) ? 'img/logo-g.png' : 'img/logo.png';
+    const isMobile = window.innerWidth <= 575.98; // ← جديد
+    document.getElementById('logoImg').src = (isSubpage || isMobile || window.scrollY > 8) ? 'img/logo-g.png' : 'img/logo.png';
   };
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();

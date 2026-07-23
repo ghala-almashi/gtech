@@ -148,7 +148,18 @@ section[id]{
   .site-header{
     position:sticky;
     top:0;
+    background:var(--bg);
+    border-bottom:1px solid var(--border);
+    box-shadow:0 8px 24px -18px rgba(15,107,66,0.35);
   }
+  /* بالجوال الهيدر دايمًا بخلفية بيضاء صلبة، فلازم النصوص والأيقونات تكون داكنة دايمًا */
+  .site-header .logo__company-name{ color:var(--ink); }
+  .site-header .logo, .site-header .logo__word{ color:var(--ink); }
+  .site-header .nav .nav-link{ color:var(--muted); }
+  .site-header .nav .nav-link:hover,
+  .site-header .nav .nav-link.active{ color:var(--ink); border-color:var(--primary); }
+  .site-header .navbar-toggler-icon{ filter:none; }
+  .site-header .btn--nav.btn--primary{ background:var(--primary); border-color:transparent; color:#fff; }
 }
 
 @media (max-width:991.98px){
