@@ -27,18 +27,25 @@
 
 <body>
 
-<!-- ============ TOPBAR ============ -->
+  <!-- ============ TOPBAR ============ -->
   <div class="topbar">
     <div class="container topbar__row">
       <div class="topbar__contact">
-        <a href="tel:+966541719233" style="direction: ltr !important; display: inline-block;"><i class="fa-solid fa-phone"></i>+966 54 171 9233</a>
-        <a href="mailto:info@gtech-a.com"><i class="fa-solid fa-envelope"></i>info@gtech-a.com</a>
+        <a href="tel:+966541719233" style="direction: ltr !important; display: inline-block;">
+          <i class="fa-solid fa-phone"></i>+966 54 171 9233
+        </a>
+        <a href="mailto:info@gtech-a.com">
+          <i class="fa-solid fa-envelope"></i>info@gtech-a.com
+        </a>
       </div>
+
       <div class="topbar__meta">
-        <span><i class="fa-solid fa-location-dot"></i><span data-i18n="topbar_location">Jada 30, Makkah,Saudi
-            Arabia</span></span>
+        <span data-i18n="topbar_cr">CR: 1234567890</span>
         <span class="dot">•</span>
-        <span data-i18n="topbar_hours">Sun – Thu, 8:00 – 17:00</span>
+        <a href="https://maps.app.goo.gl/XZY4BweSSLT1zg2S6" target="_blank" rel="noopener" class="topbar__location">
+          <i class="fa-solid fa-location-dot"></i>
+          <span data-i18n="topbar_location">Kingdom of Saudi Arabia</span>
+        </a>
       </div>
     </div>
   </div>
@@ -49,6 +56,8 @@
       <div class="container">
         <a href="#top" class="navbar-brand logo">
           <img src="img/logo.png" id="logoImg" alt="G·Tech Automation Logo" style="height: 40px;">
+          <span class="logo__company-name" data-i18n="company_name">The Green Lights</span>
+
         </a>
 
         <div class="d-flex align-items-center gap-2 order-lg-2">
@@ -75,29 +84,31 @@
 
   <main id="top">
 
-<!-- ============ HERO BACKGROUND VIDEO (G-TECH STYLE) ============ -->
+    <!-- ============ HERO BACKGROUND VIDEO (G-TECH STYLE) ============ -->
     <section class="hero-video-section">
       <!-- استدعاء ملف الفيديو الذي قمتِ بتحميله -->
       <video autoplay loop muted playsinline class="hero-bg-video">
         <source src="img/tech-bg.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      
+
       <!-- طبقة فلتر بلون الهوية الأخضر الداكن لدمج الفيديو مع الموقع ووضوح النص -->
       <div class="hero-video-overlay"></div>
 
       <div class="container hero-video-container">
         <div class="hero-video-content">
-          
+
           <h1 class="hero-video-title" data-i18n="hero_title">Smart Automation,<br>built to run for decades.</h1>
           <p class="hero-video-desc" data-i18n="hero_lede">
-            We design, build, and maintain next-generation industrial automation systems and control panels with unmatched efficiency.
+            We design, build, and maintain next-generation industrial automation systems and control panels with
+            unmatched efficiency.
           </p>
-          
-<div class="hero-video-actions">
-  <a href="#services" class="btn-schneider btn-schneider--primary" data-i18n="hero_btn_explore">Explore Our Services</a>
-  <a href="contact.html" class="btn-schneider btn-schneider--outline" data-i18n="hero_btn_talk">Talk to Us</a>
-</div>
+
+          <div class="hero-video-actions">
+            <a href="#services" class="btn-schneider btn-schneider--primary" data-i18n="hero_btn_explore">Explore Our
+              Services</a>
+            <a href="contact.html" class="btn-schneider btn-schneider--outline" data-i18n="hero_btn_talk">Talk to Us</a>
+          </div>
         </div>
       </div>
     </section>
@@ -154,52 +165,7 @@
       </div>
     </section>
 
-    <!-- ============ Vision & Mission ============ -->
-    <!-- <section class="vision-mission reveal" id="vision-mission">
-      <div class="container">
-
-        <div class="row align-items-center g-5 vm-row">
-          <div class="col-lg-5 vm-media">
-            <div class="vm-shape vm-shape--a"></div>
-            <img class="vm-blob"
-              src="https://images.unsplash.com/photo-1602860109208-613d39362844?auto=format&fit=crop&w=900&q=80"
-              alt="Industrial engineering facility">
-          </div>
-          <div class="col-lg-7">
-            <h2 class="vm-title" data-i18n="vision_title">Our Vision</h2>
-            <p data-i18n="vision_text">To be a worldwide company which is seen by employees, customers, competitors,
-              investors and suppliers as
-              a model of exemplary performance of companies working in the field of engineering, construction,
-              Commissioning and maintenance</p>
-          </div>
-        </div>
-
-        <div class="row align-items-center g-5 vm-row">
-          <div class="col-lg-7 order-lg-1">
-            <h2 class="vm-title" data-i18n="mission_title">Our Mission</h2>
-            <p data-i18n="mission_text">To provide the best solutions to assure complete & safe engineering,
-              construction, commissioning &
-              maintenance for oil & gas and power stations projects and engineering for other industries for all
-              customers all over the world in addition to provide technical & managerial training.</p>
-          </div>
-          <div class="col-lg-5 order-lg-2 vm-media">
-            <div class="vm-shape vm-shape--b"></div>
-            <img class="vm-blob"
-              src="https://images.unsplash.com/photo-1578776349090-de61da00ff1a?auto=format&fit=crop&w=900&q=80"
-              alt="G·Tech engineering and industrial project site">
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- ============ OUR PROCESS ============ -->
-    <!-- <section class="process-section reveal" id="process">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow eyebrow--dark" data-i18n="process_eyebrow">How We Work</p>
-          <h2 data-i18n="process_title">Our Process</h2>
-        </div> -->
-
-   <!-- ============ SERVICES ============ -->
+    <!-- ============ SERVICES ============ -->
     <section class="features reveal" id="services">
       <div class="container">
         <div class="row">
@@ -398,61 +364,70 @@
   </main>
 
 
-<!-- ============ FOOTER ============ -->
-<footer class="site-footer">
-  <div class="container">
-    <!-- تم تغيير text-center إلى text-start ليصبح كل شيء محاذياً للطرف بشكل مرتب تلقائياً حسب اللغة -->
-    <div class="row footer__grid g-4 text-start justify-content-between">
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <!-- تم تغيير text-center إلى text-start ليصبح كل شيء محاذياً للطرف بشكل مرتب تلقائياً حسب اللغة -->
+      <div class="row footer__grid g-4 text-start justify-content-between">
 
-      <div class="col-lg-4 col-md-6 footer__col footer__col--brand">
-        <a href="#top">
-          <img src="img/logo.png" id="logoImg" alt="G·Tech Automation Logo"
-            style="height: 50px; padding-bottom: 10px;">
-        </a>
-        <p><i class="fa-solid fa-location-dot"></i> <span data-i18n="footer_address">Jada 30, Makkah, Kingdom of Saudi Arabia</span></p>
-        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:info@gtech-a.com">info@gtech-a.com</a></p>
-        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:technical@gtech-a.com">technical@gtech-a.com</a></p>
-        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:sales@gtech-a.com">sales@gtech-a.com</a></p>
-        <p><i class="fa-solid fa-phone"></i> <a href="tel:+966541719233" style="direction: ltr !important; display: inline-block;">+966 54 171 9233</a></p>
-      </div>
-
-      <div class="col-lg-2 col-md-6 footer__col">
-        <h4 data-i18n="footer_quicklinks_title">Quick Links</h4>
-        <ul class="list-unstyled">
-          <li><a href="#about" data-i18n="footer_about">About Us</a></li>
-          <li><a href="#services" data-i18n="footer_services">Services</a></li>
-          <li><a href="#sectors" data-i18n="footer_sectors">Sectors</a></li>
-          <li><a href="contact.html" data-i18n="footer_contact">Contact</a></li>
-        </ul>
-      </div>
-
-      <div class="col-lg-2 col-md-6 footer__col">
-        <h4 data-i18n="footer_services_title">Services</h4>
-        <ul class="list-unstyled">
-          <li><a href="#services" data-i18n="footer_serv1">Industrial Automation</a></li>
-          <li><a href="#services" data-i18n="footer_serv2">Control Panels</a></li>
-          <li><a href="#services" data-i18n="footer_serv3">Maintenance</a></li>
-          <li><a href="#services" data-i18n="footer_serv4">Smart Buildings</a></li>
-        </ul>
-      </div>
-
-      <div class="col-lg-3 col-md-6 footer__col footer__social-block">
-        <h4 data-i18n="footer_social_title">Social Media</h4>
-        <!-- تم تغيير justify-content-center إلى d-flex لتبدأ الأيقونات من الطرف أيضاً -->
-        <div class="footer__social d-flex gap-2">
-          <a href="https://www.linkedin.com/in/g-tech-902535407" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://x.com/GTechIndus" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="https://www.facebook.com/profile.php?id=61589156886063" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <div class="col-lg-4 col-md-6 footer__col footer__col--brand">
+          <a href="#top">
+            <img src="img/logo.png" id="logoImg" alt="G·Tech Automation Logo"
+              style="height: 50px; padding-bottom: 10px;">
+          </a>
+          <p>
+            <a href="https://maps.app.goo.gl/XZY4BweSSLT1zg2S6" target="_blank" style="color: inherit; text-decoration: none;">
+              <i class="fa-solid fa-location-dot"></i>
+              <span data-i18n="footer_address">Jada 30, Kingdom of Saudi Arabia</span>
+            </a>
+          </p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:info@gtech-a.com">info@gtech-a.com</a></p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:technical@gtech-a.com">technical@gtech-a.com</a></p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:sales@gtech-a.com">sales@gtech-a.com</a></p>
+          <p><i class="fa-solid fa-phone"></i> <a href="tel:+966541719233"
+              style="direction: ltr !important; display: inline-block;">+966 54 171 9233</a></p>
         </div>
+
+        <div class="col-lg-2 col-md-6 footer__col">
+          <h4 data-i18n="footer_quicklinks_title">Quick Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="#about" data-i18n="footer_about">About Us</a></li>
+            <li><a href="#services" data-i18n="footer_services">Services</a></li>
+            <li><a href="#sectors" data-i18n="footer_sectors">Sectors</a></li>
+            <li><a href="contact.html" data-i18n="footer_contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer__col">
+          <h4 data-i18n="footer_services_title">Services</h4>
+          <ul class="list-unstyled">
+            <li><a href="#services" data-i18n="footer_serv1">Industrial Automation</a></li>
+            <li><a href="#services" data-i18n="footer_serv2">Control Panels</a></li>
+            <li><a href="#services" data-i18n="footer_serv3">Maintenance</a></li>
+            <li><a href="#services" data-i18n="footer_serv4">Smart Buildings</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer__col footer__social-block">
+          <h4 data-i18n="footer_social_title">Social Media</h4>
+          <!-- تم تغيير justify-content-center إلى d-flex لتبدأ الأيقونات من الطرف أيضاً -->
+          <div class="footer__social d-flex gap-2">
+            <a href="https://www.linkedin.com/in/g-tech-902535407" target="_blank" rel="noopener"
+              aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://x.com/GTechIndus" target="_blank" rel="noopener" aria-label="X"><i
+                class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61589156886063" target="_blank" rel="noopener"
+              aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+
       </div>
-
     </div>
-  </div>
 
-  <div class="container footer__bottom text-center">
-    <p>© <span id="year"></span> <span data-i18n="footer_copyright">G·Tech Automation. All rights reserved.</span></p>
-  </div>
-</footer>
+    <div class="container footer__bottom text-center">
+      <p>© <span id="year"></span> <span data-i18n="footer_copyright">G·Tech Automation. All rights reserved.</span></p>
+    </div>
+  </footer>
 
   <!-- Bootstrap JS bundle (includes Popper, powers the navbar collapse) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>

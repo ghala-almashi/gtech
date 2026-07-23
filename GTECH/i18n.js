@@ -6,8 +6,10 @@
 const translations = {
   en: {
     // ---- topbar ----
-    topbar_location: "Jada 30, Makkah, Saudi Arabia",
-    topbar_hours: "Sun – Thu, 8:00 – 17:00",
+    topbar_location: "Kingdom of Saudi Arabia",
+    company_name :"Green Lights",
+    topbar_cr:"Commercial Registration: 4031235395 ",
+    contact_location: "Jada 30, Kingdom of Saudi Arabia",
 
     // ---- nav ----
     nav_home: "Home",
@@ -227,7 +229,7 @@ const translations = {
     footer_email_placeholder: "Your email address",
     footer_join_btn: "Join",
     footer_copyright: "G·Tech Automation. All rights reserved.",
-    footer_address: "Jada 30, Makkah, Saudi Arabia",
+    footer_address: "Jada 30, Saudi Arabia",
 
     // ---- project.html hero ----
     project_eyebrow: "Project",
@@ -299,8 +301,11 @@ const translations = {
 
   ar: {
     // ---- topbar ----
-    topbar_location: "جادة 30، مكة المكرمة، المملكة العربية السعودية",
-    topbar_hours: "الأحد – الخميس، ٨:٠٠ – ٥:٠٠",
+    topbar_location: "المملكة العربية السعودية",
+    company_name : "الأنوار الخضراء",
+    topbar_cr:"السجل التجاري: 4031235395",
+
+
 
     // ---- nav ----
     nav_home: "الرئيسية",
@@ -523,7 +528,7 @@ const translations = {
     footer_email_placeholder: "بريدك الإلكتروني",
     footer_join_btn: "اشترك",
     footer_copyright: "جي‑تك للأتمتة. جميع الحقوق محفوظة.",
-    footer_address: "جادة 30، مكة المكرمة، المملكة العربية السعودية",
+    footer_address: "جادة 30، المملكة العربية السعودية",
 
     // ---- project.html hero ----
     project_eyebrow: "المشاريع",
